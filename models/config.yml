@@ -1,0 +1,11 @@
+embedding_size: 300
+hidden_size: 128
+model_path: models/
+batch_size: 30
+dropout: 0.5
+tags:
+  - TREATMENT
+  - BODY
+  - SIGNS
+  - CHECK
+  - DISEASE
