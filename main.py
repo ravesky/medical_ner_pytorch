@@ -107,7 +107,7 @@ class ChineseNER(object):
         return data_map
 
     def train(self):
-        optimizer = optim.Adam(self.model.parameters(),weight_decay=1e-2,lr=0.00014)
+        optimizer = optim.Adam(self.model.parameters(),weight_decay=1e-2,lr=0.00013)
         # optimizer = optim.SGD(self.model.parameters(), lr=0.001,weight_decay=0.01,momentum=0.9)
         scheduler_lr = optim.lr_scheduler.ReduceLROnPlateau(optimizer,mode='min',factor=0.5,patience=2,cooldown=5,verbose=True,min_lr=1e-6,eps=1e-8)
         best_loss = 10000
