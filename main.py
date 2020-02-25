@@ -1,6 +1,5 @@
 import pickle
-import sys
-
+import json
 import yaml
 import numpy as np
 import torch
@@ -11,7 +10,7 @@ from model import BiLSTMCRF
 from utils import f1_score, get_tags, format_result
 from torch.utils.tensorboard import SummaryWriter
 
-writer = SummaryWriter(log_dir='./tensorboard/5epoch',comment='_BiLstm_CRF_5epcoh')
+writer = SummaryWriter(log_dir='./tensorboard/5epoch')
 
 class ChineseNER(object):
     
@@ -32,7 +31,7 @@ class ChineseNER(object):
             self.save_params(data)
             self.dev_manager = DataManager(batch_size=60, data_type="dev")
             # 验证集
-            self.dev_batch = self.dev_manager.iteration()
+            # self.dev_batch = self.dev_manager.iteration()
 
             self.model = BiLSTMCRF(
                 tag_map=self.train_manager.tag_map,
@@ -107,12 +106,12 @@ class ChineseNER(object):
         return data_map
 
     def train(self):
-        optimizer = optim.Adam(self.model.parameters(),weight_decay=1e-2,lr=0.00013)
-        # optimizer = optim.SGD(self.model.parameters(), lr=0.001,weight_decay=0.01,momentum=0.9)
-        scheduler_lr = optim.lr_scheduler.ReduceLROnPlateau(optimizer,mode='min',factor=0.5,patience=2,cooldown=5,verbose=True,min_lr=1e-6,eps=1e-8)
-        best_loss = 10000
+        # optimizer = optim.Adam(self.model.parameters(),weight_decay=0.02,lr=0.000001) # 0.000001
+        optimizer = optim.SGD(self.model.parameters(), lr=0.0000008,weight_decay=0.01,momentum=0.9)
+        scheduler_lr = optim.lr_scheduler.ReduceLROnPlateau(optimizer,mode='min',factor=0.5,patience=2,cooldown=5,verbose=True,min_lr=1e-8,eps=1e-8)
+        best_loss = 100
         lossList = [0] * self.total_size
-        for epoch in range(151,400):
+        for epoch in range(236,401):
             losses = []
             index = 0
             startTime = time.process_time()
@@ -131,7 +130,6 @@ class ChineseNER(object):
                 loss = self.model.neg_log_likelihood(sentences_tensor, tags_tensor, length_tensor)
                 losses.append(loss.cpu().item())
                 progress = ("█"*int(index * 60 / self.total_size)).ljust(60)
-                # self.evaluate(index)
                 loss.backward()
                 optimizer.step()
                 end = time.process_time()
@@ -152,17 +150,18 @@ class ChineseNER(object):
             writer.add_scalar('BiLstm_CRF:avg_loss-epoch', avg_loss, epoch)
             print('epoch ',epoch,'   avg_loss ', avg_loss,'   total_time ',totalTime)
             if epoch % 5 == 0:
-                self.calculaterF1(epoch/5)
+                self.evaluate(epoch/5,manager=self.dev_manager)
             print("-"*100)
             scheduler_lr.step(avg_loss)
         writer.close()
     # train: BODY 7507, SIGNS 6355, CHECK 6965, DISEASE 474, TREATMENT 805
     # test:
-    def calculaterF1(self,epoch):
+    # 计算f1,评估模型
+    def evaluate(self,epoch,manager,add_scalar = True):
         all_origins = all_founds = all_rights = 0
         for tag in self.tags:
             origins = founds = rights = 0
-            for batch in self.dev_manager.get_batch():
+            for batch in manager.get_batch():
                 sentences, labels, length = zip(*batch)
                 _, paths = self.model(sentences)
                 origin, found, right = f1_score(labels, paths, tag, self.model.tag_map)
@@ -177,31 +176,25 @@ class ChineseNER(object):
             f1 = 0. if recall + precision == 0 else (2 * precision * recall) / (precision + recall)
             print("\t{}\torigins:{}\t\t\tfounds:{}\t\t\trights:{}".format(tag, origins, founds, rights))
             print("\t\t\trecall:{}\tprecision:{}\tf1:{}".format(recall, precision, f1))
-            tag_epoch = tag + '-5epoch'
-            writer.add_scalars(tag_epoch,{
-                'recall':recall,
-                'precision':precision,
-                'f1':f1
-            }, epoch)
+            if add_scalar:
+                tag_epoch = tag + '-5epoch'
+                writer.add_scalars(tag_epoch,{
+                    'recall':recall,
+                    'precision':precision,
+                    'f1':f1
+                }, epoch)
         all_recall = 0. if all_origins == 0 else (all_rights / all_origins)
         all_precision = 0. if all_founds == 0 else (all_rights / all_founds)
         all_f1 = 0. if all_recall + all_precision == 0 else (2 * all_precision * all_recall) / (all_precision + all_recall)
         print("\tall_origins:{}\t\t\tall_founds:{}\t\t\tall_rights:{}".format(all_origins, all_founds, all_rights))
         print("\tall_recall:{}\tall_precision:{}\tall_f1:{}".format(all_recall, all_precision, all_f1))
-        writer.add_scalars("ALL-5epoch", {
-            'all_recall': all_recall,
-            'all_precision': all_precision,
-            'all_f1': all_f1
-        }, epoch)
+        if add_scalar:
+            writer.add_scalars("ALL-5epoch", {
+                'all_recall': all_recall,
+                'all_precision': all_precision,
+                'all_f1': all_f1
+            }, epoch)
         return all_recall, all_precision, all_f1
-
-    def evaluate(self,index):
-        # batch_size 个句子
-        sentences, labels, length = zip(*self.dev_batch.__next__())
-        _, paths = self.model(sentences)
-        print("\t评估验证集(batch[{}])".format(index))
-        for tag in self.tags:
-            f1_score(labels, paths, tag, self.model.tag_map)
     # 预测方法
     def predict(self, input_str=""):
         if not input_str:
@@ -219,6 +212,8 @@ class ChineseNER(object):
         for tag in self.tags:
             tags = get_tags(paths[0], tag, self.tag_map)
             entities += format_result(tags, input_str, tag)
+        print(entities)
+        print(json.dumps(entities,indent=4,ensure_ascii=False))
         return entities
 
 if __name__ == "__main__":
@@ -230,10 +225,16 @@ if __name__ == "__main__":
             break
         elif entry == 'predict':
             cn = ChineseNER("predict")
-            print(cn.predict())
+            while True:
+                inputText = input("请输入文本(q退出): ")
+                if inputText != 'q':
+                    cn.predict(inputText)
+                else:
+                    break
             break
         elif entry == 'evaluate':
             cn = ChineseNER("evaluate")
+            cn.evaluate(epoch=0,manager=cn.test_manager,add_scalar=False)
             break
         else:
             print("请输入正确的命令(train or predict or evaluate)")

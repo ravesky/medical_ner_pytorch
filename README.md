@@ -1,23 +1,29 @@
-# MedicalNer
+# MedicalNer - 中文电子病历命名实体识别(pytorch实现)
 
-- 中文电子病历命名实体识别(pytorch实现)
+### pytorch版本
+
+- 1.4
+
 ### 数据集处理
 
 - 解压 data_origin.zip, 运行 transfer_data.py,得到标注的数据集
 - 按照自己需求获取train,test,dev三个数据集
 
 ### 修改配置config.yml
-    embedding_size: 300
-    hidden_size: 128
-    model_path: models/
-    batch_size: 30
-    dropout: 0.5
-    tags:
-      - TREATMENT
-      - BODY
-      - SIGNS
-      - CHECK
-      - DISEASE
+
+- 按照需要修改以下配置，tags为要识别的命名实体
+
+        embedding_size: 300
+        hidden_size: 128
+        model_path: models/
+        batch_size: 30
+        dropout: 0.5
+        tags:
+          - TREATMENT
+          - BODY
+          - SIGNS
+          - CHECK
+          - DISEASE
 ### 训练
 
 - 确保运行时有GPU,不然需要修改部分代码 (把torch.cuda()的所有.cuda() 删除)
@@ -26,28 +32,49 @@
 
         1.python main.py
         2.输入 train 即可开始训练
-        3.训练过程
+        3.训练中每5个epoch评估一次模型,并记录在tensorboard中
+        4.训练过程
         
-        epoch [70] |████████████████████████ | 29/30
-            loss 141.02		time 11.984375
-        --------------------------------------------------
-        epoch [70] |█████████████████████████| 30/30
-            loss 140.33		time 10.21875
-        --------------------------------------------------
-        epoch  70 avg_loss  231.88453776041666 total_time  693.546875
-            TREATMENT	orgins:805.0	founds:803.0	rights:782.0
-                recall:0.9714285714285714	precision:0.9738480697384807	f1:0.9726368159203981
-            BODY	orgins:8278.0	founds:8262.0	rights:7915.0
-                recall:0.9561488282193766	precision:0.958000484144275	f1:0.9570737605804112
-            SIGNS	orgins:6366.0	founds:6356.0	rights:6309.0
-                recall:0.9910461828463714	precision:0.9926054122089364	f1:0.9918251847193837
-            CHECK	orgins:7718.0	founds:7757.0	rights:7633.0
-                recall:0.9889867841409692	precision:0.9840144385716127	f1:0.9864943457189015
-            DISEASE	orgins:474.0	founds:465.0	rights:436.0
-                recall:0.919831223628692	precision:0.9376344086021505	f1:0.9286474973375931
-            all_orgins:23641.0	all_founds:23643.0	all_rights:23075.0
-            all_recall:0.9760585423628442	all_precision:0.975975975975976	all_f1:0.9760172574232299
-        ----------------------------------------------------------------------------------------------------
+        epoch [155] |████████████████████████████████████████████████████        | 26/30
+            loss 88.828		last_loss 90.121		time 14.15625		best_avg_loss 116.693
+        ------------------------------------------------------------------------------------------
+        epoch [155] |██████████████████████████████████████████████████████      | 27/30
+            loss 69.074		last_loss 69.539		time 13.78125		best_avg_loss 116.693
+        ------------------------------------------------------------------------------------------
+        epoch [155] |████████████████████████████████████████████████████████    | 28/30
+            loss 59.598		last_loss 60.180		time 9.296875		best_avg_loss 116.693
+        ------------------------------------------------------------------------------------------
+        epoch [155] |██████████████████████████████████████████████████████████  | 29/30
+            loss 65.137		last_loss 65.805		time 10.90625		best_avg_loss 116.693
+        ------------------------------------------------------------------------------------------
+        epoch [155] |████████████████████████████████████████████████████████████| 30/30
+            loss 63.645		last_loss 64.129		time 9.65625		best_avg_loss 116.693
+        ------------------------------------------------------------------------------------------
+        epoch  155    avg_loss  116.0021484375    total_time  634.734375
+            TREATMENT	origins:805.0			founds:806.0			rights:801.0
+                    recall:0.9950310559006211	precision:0.9937965260545906	f1:0.9944134078212291
+            BODY	origins:8278.0			founds:8292.0			rights:8101.0
+                    recall:0.9786180236772167	precision:0.9769657501205982	f1:0.9777911888955945
+            SIGNS	origins:6366.0			founds:6368.0			rights:6341.0
+                    recall:0.9960728872133208	precision:0.9957600502512562	f1:0.995916444165227
+            CHECK	origins:7718.0			founds:7738.0			rights:7688.0
+                    recall:0.9961129826379891	precision:0.9935383820108555	f1:0.994824016563147
+            DISEASE	origins:474.0			founds:473.0			rights:473.0
+                    recall:0.9978902953586498	precision:1.0	f1:0.9989440337909187
+            all_origins:23641.0			all_founds:23677.0			all_rights:23404.0
+            all_recall:0.98997504335688	all_precision:0.9884698230350129	all_f1:0.9892218606027303
+
+- 在tensorboard查看训练结果
+
+        writer = SummaryWriter(log_dir='./tensorboard/5epoch')
+        在main.py文件中修改log_dir的文件路径,在终端中进入log_dir路径下，输入以下命令:
+        
+        tensorboard --logdir=./
+        
+        点击 http://localhost:6006/ 
+        即可查看各个实体的recall,found,f1,全部实体的recall,found,f1,以及每个epoch所有batch的平均loss
+        
+        
         
 ### 预测
 - 运行main.py
@@ -62,6 +89,7 @@
 
         1.python main.py
         2.输入 evaluate 即可开始评估
+
 
 
 
