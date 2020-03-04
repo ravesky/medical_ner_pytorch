@@ -10,7 +10,7 @@ from model import BiLSTMCRF
 from utils import f1_score, get_tags, format_result
 from torch.utils.tensorboard import SummaryWriter
 
-writer = SummaryWriter(log_dir='./tensorboard/5epoch')
+writer = SummaryWriter(log_dir='./tensorboard/bioes')
 
 class ChineseNER(object):
     
@@ -58,7 +58,7 @@ class ChineseNER(object):
                 hidden_dim=self.hidden_size
             )
             self.model = self.model.cuda()
-            self.test_manager = DataManager(batch_size=30, data_type="test")
+            self.test_manager = DataManager(batch_size=60, data_type="dev")
             self.restore_model()
     # 加载配置项
     def load_config(self):
@@ -89,29 +89,29 @@ class ChineseNER(object):
     # 保存模型各种训练参数
     def restore_model(self):
         try:
-            self.model.load_state_dict(torch.load(self.model_path + "params_5all.pkl"))
+            self.model.load_state_dict(torch.load(self.model_path + "params_6all.pkl"))
             print("model restore success!")
         except Exception as error:
             print("model restore faild! {}".format(error))
 
     # 保存模型超参数
     def save_params(self, data):
-        with open("models/data_5all.pkl", "wb") as fopen:
+        with open("models/data_6all.pkl", "wb") as fopen:
             pickle.dump(data, fopen)
 
     # 加载模型超参数
     def load_params(self):
-        with open("models/data_5all.pkl", "rb") as fopen:
+        with open("models/data_6all.pkl", "rb") as fopen:
             data_map = pickle.load(fopen)
         return data_map
 
     def train(self):
-        # optimizer = optim.Adam(self.model.parameters(),weight_decay=0.02,lr=0.000001) # 0.000001
-        optimizer = optim.SGD(self.model.parameters(), lr=0.0000008,weight_decay=0.01,momentum=0.9)
+        optimizer = optim.Adam(self.model.parameters(),weight_decay=0.002,lr=0.0000004) # 0.000001
+        # optimizer = optim.SGD(self.model.parameters(), lr=0.00000008,weight_decay=0.001,momentum=0.9) #4e-7
         scheduler_lr = optim.lr_scheduler.ReduceLROnPlateau(optimizer,mode='min',factor=0.5,patience=2,cooldown=5,verbose=True,min_lr=1e-8,eps=1e-8)
-        best_loss = 100
+        best_loss = 240
         lossList = [0] * self.total_size
-        for epoch in range(236,401):
+        for epoch in range(268,401):
             losses = []
             index = 0
             startTime = time.process_time()
@@ -132,6 +132,7 @@ class ChineseNER(object):
                 progress = ("█"*int(index * 60 / self.total_size)).ljust(60)
                 loss.backward()
                 optimizer.step()
+                # torch.save(self.model.state_dict(), self.model_path + 'params_6all.pkl')
                 end = time.process_time()
                 dur = end - start
                 print("""epoch [{}] |{}| {}/{}\n\tloss {:.3f}\t\tlast_loss {:.3f}\t\ttime {}\t\tbest_avg_loss {:.3f}""".format(
@@ -146,7 +147,7 @@ class ChineseNER(object):
             # 保存最好的模型
             if avg_loss < best_loss:
                 best_loss = avg_loss
-                torch.save(self.model.state_dict(), self.model_path + 'params_5all.pkl')
+                torch.save(self.model.state_dict(), self.model_path + 'params_6all.pkl')
             writer.add_scalar('BiLstm_CRF:avg_loss-epoch', avg_loss, epoch)
             print('epoch ',epoch,'   avg_loss ', avg_loss,'   total_time ',totalTime)
             if epoch % 5 == 0:
@@ -158,6 +159,7 @@ class ChineseNER(object):
     # test:
     # 计算f1,评估模型
     def evaluate(self,epoch,manager,add_scalar = True):
+        print('正在开始评估')
         all_origins = all_founds = all_rights = 0
         for tag in self.tags:
             origins = founds = rights = 0
@@ -194,6 +196,7 @@ class ChineseNER(object):
                 'all_precision': all_precision,
                 'all_f1': all_f1
             }, epoch)
+        print('评估结束')
         return all_recall, all_precision, all_f1
     # 预测方法
     def predict(self, input_str=""):

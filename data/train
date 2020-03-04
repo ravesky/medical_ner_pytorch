@@ -136,7 +136,7 @@ end
 入	O
 院	O
 end
-痛	B-SIGNS
+痛	S-SIGNS
 1	O
 0	O
 小	O
@@ -226,7 +226,7 @@ end
 院	O
 。	O
 end
-胀	B-SIGNS
+胀	S-SIGNS
 伴	O
 活	O
 动	O
@@ -250,7 +250,7 @@ end
 钟	O
 。	O
 end
-痛	B-SIGNS
+痛	S-SIGNS
 1	O
 0	O
 小	O
@@ -387,12 +387,12 @@ end
 院	O
 。	O
 end
-痛	B-SIGNS
+痛	S-SIGNS
 1	O
 天	O
 。	O
 end
-痛	B-SIGNS
+痛	S-SIGNS
 5	O
 天	O
 。	O
@@ -7959,7 +7959,7 @@ p	O
 主	O
 因	O
 ：	O
-腰	B-BODY
+腰	S-BODY
 部	O
 疼	B-SIGNS
 痛	E-SIGNS
@@ -8079,7 +8079,7 @@ p	O
 1	O
 年	O
 ，	O
-腰	B-BODY
+腰	S-BODY
 加	O
 重	O
 3	O
@@ -9873,7 +9873,7 @@ end
 院	O
 。	O
 end
-痛	B-SIGNS
+痛	S-SIGNS
 、	O
 头	B-SIGNS
 晕	E-SIGNS
@@ -10113,7 +10113,7 @@ end
 伴	O
 有	O
 排	O
-尿	B-BODY
+尿	S-BODY
 时	O
 疼	B-SIGNS
 痛	E-SIGNS
@@ -10435,7 +10435,7 @@ end
 院	O
 。	O
 end
-痛	B-SIGNS
+痛	S-SIGNS
 伴	O
 呼	B-SIGNS
 吸	I-SIGNS
@@ -10610,7 +10610,7 @@ end
 排	O
 气	O
 排	O
-便	B-BODY
+便	S-BODY
 3	O
 天	O
 。	O
@@ -11310,7 +11310,7 @@ end
 院	O
 。	O
 end
-痛	B-SIGNS
+痛	S-SIGNS
 伴	O
 会	B-BODY
 阴	I-BODY
@@ -11593,7 +11593,7 @@ end
 小	O
 时	O
 end
-晕	B-SIGNS
+晕	S-SIGNS
 5	O
 小	O
 时	O
@@ -11865,7 +11865,7 @@ end
 已	O
 消	O
 ，	O
-鼻	B-BODY
+鼻	S-BODY
 外	O
 形	O
 无	O
@@ -11883,7 +11883,7 @@ end
 倾	O
 斜	O
 ，	O
-鼻	B-BODY
+鼻	S-BODY
 通	O
 气	O
 正	O
@@ -11899,7 +11899,7 @@ end
 胀	O
 痛	O
 ，	O
-腰	B-BODY
+腰	S-BODY
 及	O
 右	B-BODY
 腿	E-BODY
@@ -12036,7 +12036,7 @@ m	O
 音	E-CHECK
 清	O
 ，	O
-腹	B-BODY
+腹	S-BODY
 软	O
 、	O
 无	O
@@ -12222,7 +12222,7 @@ end
 杂	B-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
 腹	B-BODY
@@ -12384,9 +12384,9 @@ end
 压	B-CHECK
 痛	E-CHECK
 。	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 检	O
 查	O
 未	O
@@ -12499,7 +12499,7 @@ end
 杂	I-CHECK
 音	E-CHECK
 ，	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -12625,7 +12625,7 @@ end
 肿	B-SIGNS
 胀	E-SIGNS
 ，	O
-膝	B-BODY
+膝	S-BODY
 、	O
 踝	B-BODY
 关	I-BODY
@@ -12743,7 +12743,7 @@ end
 /	O
 分	O
 ，	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
 左	B-BODY
@@ -12809,8 +12809,8 @@ end
 黄	B-SIGNS
 染	E-SIGNS
 。	O
-心	B-BODY
-肺	B-BODY
+心	S-BODY
+肺	S-BODY
 检	O
 查	O
 未	O
@@ -12969,7 +12969,7 @@ end
 腹	B-SIGNS
 胀	E-SIGNS
 。	O
-尿	B-BODY
+尿	S-BODY
 色	O
 量	O
 正	O
@@ -13329,7 +13329,7 @@ g	O
 啰	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -13342,8 +13342,8 @@ g	O
 动	O
 波	O
 。	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -13476,7 +13476,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -13484,8 +13484,8 @@ T	B-CHECK
 7	O
 C	O
 ，	O
-心	B-BODY
-肺	B-BODY
+心	S-BODY
+肺	S-BODY
 检	O
 查	O
 未	O
@@ -13751,9 +13751,9 @@ end
 况	O
 可	O
 ，	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 异	O
@@ -13842,9 +13842,9 @@ end
 况	O
 可	O
 ，	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 异	O
@@ -13972,8 +13972,8 @@ end
 况	O
 可	O
 ，	O
-心	B-BODY
-肺	B-BODY
+心	S-BODY
+肺	S-BODY
 未	O
 见	O
 异	O
@@ -14005,7 +14005,7 @@ end
 动	O
 可	O
 ，	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
 无	O
@@ -14260,11 +14260,11 @@ end
 曲	I-SIGNS
 张	E-SIGNS
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -14366,9 +14366,9 @@ end
 况	O
 可	O
 ，	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 异	O
@@ -14662,7 +14662,7 @@ end
 显	O
 ，	O
 少	O
-痰	B-BODY
+痰	S-BODY
 ，	O
 无	O
 发	B-SIGNS
@@ -14683,7 +14683,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -14816,8 +14816,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -15032,7 +15032,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -15183,8 +15183,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -15467,7 +15467,7 @@ end
 杂	I-CHECK
 音	E-CHECK
 ，	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -15562,7 +15562,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -15726,8 +15726,8 @@ T	B-CHECK
 跳	I-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -16023,7 +16023,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -16163,8 +16163,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -16369,7 +16369,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -16524,8 +16524,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -16733,7 +16733,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -16887,8 +16887,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -16984,7 +16984,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -17136,8 +17136,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -17386,7 +17386,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -17539,8 +17539,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -17758,7 +17758,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -17914,8 +17914,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -18144,7 +18144,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -18297,8 +18297,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -18605,7 +18605,7 @@ M	I-CHECK
 定	E-CHECK
 示	O
 ：	O
-铜	B-CHECK
+铜	S-CHECK
 1	O
 .	O
 3	O
@@ -18616,7 +18616,7 @@ g	O
 m	O
 l	O
 ，	O
-锌	B-CHECK
+锌	S-CHECK
 2	O
 .	O
 6	O
@@ -18627,7 +18627,7 @@ g	O
 m	O
 l	O
 ，	O
-钙	B-CHECK
+钙	S-CHECK
 4	O
 0	O
 .	O
@@ -18639,7 +18639,7 @@ g	O
 m	O
 l	O
 ，	O
-镁	B-CHECK
+镁	S-CHECK
 1	O
 8	O
 .	O
@@ -18651,7 +18651,7 @@ g	O
 m	O
 l	O
 ，	O
-铁	B-CHECK
+铁	S-CHECK
 1	O
 3	O
 .	O
@@ -18718,7 +18718,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -18872,8 +18872,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -19180,11 +19180,11 @@ end
 杂	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -19348,7 +19348,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -19497,8 +19497,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -19735,7 +19735,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -19885,8 +19885,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -20062,7 +20062,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -20218,8 +20218,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -20272,7 +20272,7 @@ T	B-CHECK
 ：	O
 两	O
 下	O
-肺	B-BODY
+肺	S-BODY
 纹	O
 理	O
 增	O
@@ -20435,7 +20435,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -20588,8 +20588,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -20815,7 +20815,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -20968,8 +20968,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -21061,7 +21061,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -21217,8 +21217,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -21446,7 +21446,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -21601,8 +21601,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -21696,7 +21696,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -21830,8 +21830,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -21939,7 +21939,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -22092,8 +22092,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -22185,7 +22185,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -22339,8 +22339,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -22568,7 +22568,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -22728,8 +22728,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -23074,7 +23074,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -23228,8 +23228,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -23297,7 +23297,7 @@ T	B-CHECK
 以	O
 右	O
 下	O
-肺	B-BODY
+肺	S-BODY
 为	O
 著	O
 。	O
@@ -23452,7 +23452,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -23608,8 +23608,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -23707,7 +23707,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -23835,8 +23835,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -23925,7 +23925,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -24082,8 +24082,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -24351,7 +24351,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -24504,8 +24504,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -24734,7 +24734,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -24771,7 +24771,7 @@ T	B-CHECK
 发	B-SIGNS
 绀	E-SIGNS
 ，	O
-咽	B-BODY
+咽	S-BODY
 无	O
 充	B-SIGNS
 血	E-SIGNS
@@ -24872,8 +24872,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -25000,7 +25000,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -25144,8 +25144,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -25371,7 +25371,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -25526,8 +25526,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -25792,7 +25792,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
 3	O
@@ -25945,8 +25945,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -26143,7 +26143,7 @@ end
 痛	E-SIGNS
 ，	O
 无	O
-胸	B-BODY
+胸	S-BODY
 腹	B-BODY
 部	E-BODY
 不	O
@@ -26301,7 +26301,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -26455,8 +26455,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -26697,7 +26697,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -26847,8 +26847,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -27066,7 +27066,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -27225,8 +27225,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -27455,7 +27455,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -27608,8 +27608,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -27834,7 +27834,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
 3	O
@@ -27986,8 +27986,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -28192,7 +28192,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -28346,8 +28346,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -28462,7 +28462,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -28591,8 +28591,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -28736,7 +28736,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -28884,8 +28884,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -29018,7 +29018,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -29150,8 +29150,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -29373,7 +29373,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -29521,7 +29521,7 @@ T	B-CHECK
 柔	O
 软	O
 ，	O
-脐	B-BODY
+脐	S-BODY
 周	O
 无	O
 明	O
@@ -29529,8 +29529,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -29881,7 +29881,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
 3	O
@@ -30033,8 +30033,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -30266,7 +30266,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -30431,8 +30431,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -30709,7 +30709,7 @@ end
 嗽	E-SIGNS
 、	O
 咳	O
-痰	B-BODY
+痰	S-BODY
 明	O
 显	O
 减	O
@@ -30735,7 +30735,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -30889,8 +30889,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -31189,7 +31189,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -31343,8 +31343,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -31436,7 +31436,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -31588,8 +31588,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -31826,7 +31826,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -31869,7 +31869,7 @@ T	B-CHECK
 光	O
 滑	O
 。	O
-咽	B-BODY
+咽	S-BODY
 无	O
 浮	B-SIGNS
 肿	E-SIGNS
@@ -31978,8 +31978,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -32196,7 +32196,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -32396,8 +32396,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -32481,7 +32481,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -32634,8 +32634,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -32724,7 +32724,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -32875,8 +32875,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -32971,11 +32971,11 @@ end
 气	O
 、	O
 排	O
-便	B-BODY
+便	S-BODY
 。	O
 查	O
 ：	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -32988,7 +32988,7 @@ end
 动	O
 波	O
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
 腹	B-BODY
@@ -33006,8 +33006,8 @@ end
 紧	I-CHECK
 张	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 均	O
 未	O
 触	O
@@ -33240,7 +33240,7 @@ end
 嗽	E-SIGNS
 、	O
 咳	O
-痰	B-BODY
+痰	S-BODY
 ，	O
 无	O
 腹	B-SIGNS
@@ -33266,7 +33266,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -33421,8 +33421,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -33645,7 +33645,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -33760,8 +33760,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -34022,7 +34022,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -34110,7 +34110,7 @@ T	B-CHECK
 治	O
 疗	O
 。	O
-咽	B-BODY
+咽	S-BODY
 无	O
 浮	B-SIGNS
 肿	E-SIGNS
@@ -34194,8 +34194,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -34427,7 +34427,7 @@ end
 嗽	E-SIGNS
 、	O
 咳	O
-痰	B-BODY
+痰	S-BODY
 ，	O
 无	O
 发	B-SIGNS
@@ -34449,7 +34449,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -34602,8 +34602,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -34903,7 +34903,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -35058,8 +35058,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -35276,7 +35276,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -35429,8 +35429,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -35549,7 +35549,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -35703,8 +35703,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -35890,7 +35890,7 @@ end
 嗽	E-SIGNS
 ，	O
 咳	O
-痰	B-BODY
+痰	S-BODY
 ，	O
 无	O
 流	B-SIGNS
@@ -35915,7 +35915,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -36067,8 +36067,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -36288,7 +36288,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -36443,8 +36443,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -36648,7 +36648,7 @@ end
 嗽	E-SIGNS
 、	O
 咳	O
-痰	B-BODY
+痰	S-BODY
 ，	O
 无	O
 发	B-SIGNS
@@ -36670,7 +36670,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -36823,8 +36823,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -36993,15 +36993,15 @@ end
 灵	O
 敏	O
 ，	O
-心	B-BODY
-肺	B-BODY
+心	S-BODY
+肺	S-BODY
 听	O
 诊	O
 无	O
 异	O
 常	O
 ，	O
-腹	B-BODY
+腹	S-BODY
 平	O
 软	O
 ，	O
@@ -37073,7 +37073,7 @@ end
 嗽	E-SIGNS
 、	O
 咳	O
-痰	B-BODY
+痰	S-BODY
 ，	O
 无	O
 发	B-SIGNS
@@ -37095,7 +37095,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -37256,8 +37256,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -37482,7 +37482,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
 3	O
@@ -37634,8 +37634,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -37882,7 +37882,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -38049,8 +38049,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -38150,7 +38150,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -38298,14 +38298,14 @@ T	B-CHECK
 柔	O
 软	O
 ，	O
-脐	B-BODY
+脐	S-BODY
 周	O
 轻	O
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -38363,7 +38363,7 @@ T	B-CHECK
 ：	O
 腹	B-BODY
 部	E-BODY
-脐	B-BODY
+脐	S-BODY
 周	O
 大	O
 血	O
@@ -38547,7 +38547,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -38701,8 +38701,8 @@ T	B-CHECK
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -38888,7 +38888,7 @@ end
 咳	B-SIGNS
 嗽	E-SIGNS
 咳	O
-痰	B-BODY
+痰	S-BODY
 ，	O
 左	B-BODY
 侧	I-BODY
@@ -39133,9 +39133,9 @@ end
 神	O
 清	O
 ，	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 明	O
@@ -39237,8 +39237,8 @@ g	O
 杂	B-CHECK
 音	E-CHECK
 ，	O
-肺	B-BODY
-腹	B-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 明	O
@@ -39268,7 +39268,7 @@ g	O
 流	O
 利	O
 ，	O
-额	B-BODY
+额	S-BODY
 纹	O
 对	B-SIGNS
 称	E-SIGNS
@@ -39287,15 +39287,15 @@ g	O
 灵	O
 敏	O
 ，	O
-鼻	B-BODY
-唇	B-BODY
+鼻	S-BODY
+唇	S-BODY
 沟	O
 无	O
 变	O
 浅	O
 ，	O
 伸	O
-舌	B-BODY
+舌	S-BODY
 居	O
 中	O
 ，	O
@@ -39380,7 +39380,7 @@ end
 咳	B-SIGNS
 嗽	E-SIGNS
 咳	O
-痰	B-BODY
+痰	S-BODY
 减	O
 轻	O
 ，	O
@@ -39629,7 +39629,7 @@ g	O
 杂	B-CHECK
 音	E-CHECK
 ，	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
 无	O
@@ -39655,7 +39655,7 @@ g	O
 语	O
 利	O
 ，	O
-额	B-BODY
+额	S-BODY
 纹	O
 对	B-SIGNS
 称	E-SIGNS
@@ -39674,15 +39674,15 @@ g	O
 灵	O
 敏	O
 ，	O
-鼻	B-BODY
-唇	B-BODY
+鼻	S-BODY
+唇	S-BODY
 沟	O
 无	O
 变	O
 浅	O
 ，	O
 伸	O
-舌	B-BODY
+舌	S-BODY
 居	O
 中	O
 ，	O
@@ -40117,7 +40117,7 @@ g	O
 杂	B-CHECK
 音	E-CHECK
 ，	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
 无	O
@@ -40268,8 +40268,8 @@ end
 清	B-CHECK
 音	E-CHECK
 ，	O
-肺	B-BODY
-肝	B-BODY
+肺	S-BODY
+肝	S-BODY
 相	B-CHECK
 对	I-CHECK
 浊	I-CHECK
@@ -40399,7 +40399,7 @@ g	O
 杂	B-CHECK
 音	E-CHECK
 ，	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
 无	O
@@ -40465,9 +40465,9 @@ end
 神	O
 清	O
 ，	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 异	O
@@ -40616,7 +40616,7 @@ g	O
 杂	B-CHECK
 音	E-CHECK
 ，	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
 无	O
@@ -40699,9 +40699,9 @@ end
 神	O
 清	O
 ，	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 明	O
@@ -40751,14 +40751,14 @@ end
 况	O
 可	O
 ，	O
-心	B-BODY
-肺	B-BODY
+心	S-BODY
+肺	S-BODY
 未	O
 见	O
 异	O
 常	O
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -40789,8 +40789,8 @@ end
 紧	I-CHECK
 张	E-CHECK
 。	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 肋	B-BODY
 下	E-BODY
 未	O
@@ -40979,9 +40979,9 @@ end
 神	O
 清	O
 ，	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 明	O
@@ -41368,9 +41368,9 @@ end
 神	O
 清	O
 ，	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 明	O
@@ -41785,7 +41785,7 @@ end
 合	O
 治	O
 疗	O
-颈	B-BODY
+颈	S-BODY
 肩	B-BODY
 部	E-BODY
 及	O
@@ -42064,9 +42064,9 @@ end
 神	O
 清	O
 ，	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 明	O
@@ -42121,7 +42121,7 @@ end
 头	B-SIGNS
 晕	E-SIGNS
 、	O
-颈	B-BODY
+颈	S-BODY
 肩	B-BODY
 部	E-BODY
 酸	O
@@ -42147,7 +42147,7 @@ end
 头	B-SIGNS
 晕	E-SIGNS
 及	O
-颈	B-BODY
+颈	S-BODY
 肩	B-BODY
 部	E-BODY
 酸	O
@@ -42269,7 +42269,7 @@ end
 治	O
 疗	O
 ，	O
-颈	B-BODY
+颈	S-BODY
 肩	B-BODY
 部	E-BODY
 疼	B-SIGNS
@@ -42292,7 +42292,7 @@ end
 未	O
 出	O
 现	O
-颈	B-BODY
+颈	S-BODY
 肩	B-BODY
 部	E-BODY
 疼	B-SIGNS
@@ -42516,9 +42516,9 @@ end
 神	O
 清	O
 ，	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 明	O
@@ -42785,7 +42785,7 @@ g	O
 杂	B-CHECK
 音	E-CHECK
 ，	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
 无	O
@@ -42976,11 +42976,11 @@ end
 曲	I-SIGNS
 张	E-SIGNS
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -43278,7 +43278,7 @@ end
 治	O
 疗	O
 ，	O
-颈	B-BODY
+颈	S-BODY
 肩	B-BODY
 部	E-BODY
 疼	B-SIGNS
@@ -43303,7 +43303,7 @@ end
 未	O
 出	O
 现	O
-颈	B-BODY
+颈	S-BODY
 肩	B-BODY
 部	E-BODY
 疼	B-SIGNS
@@ -43515,9 +43515,9 @@ end
 神	O
 清	O
 ，	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 明	O
@@ -43686,9 +43686,9 @@ end
 神	O
 清	O
 ，	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 明	O
@@ -43762,9 +43762,9 @@ end
 神	O
 清	O
 ，	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 明	O
@@ -43848,8 +43848,8 @@ end
 。	O
 查	O
 ：	O
-心	B-BODY
-肺	B-BODY
+心	S-BODY
+肺	S-BODY
 检	O
 查	O
 未	O
@@ -43858,7 +43858,7 @@ end
 异	O
 常	O
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 软	O
 ，	O
@@ -44300,9 +44300,9 @@ end
 主	O
 诉	O
 ，	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 异	O
@@ -44457,7 +44457,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 7	O
@@ -44549,7 +44549,7 @@ C	O
 杂	O
 音	O
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 软	O
 ，	O
@@ -44666,7 +44666,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -44729,7 +44729,7 @@ C	O
 杂	O
 音	O
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 软	O
 ，	O
@@ -44979,7 +44979,7 @@ end
 异	O
 常	O
 。	O
-腹	B-BODY
+腹	S-BODY
 膨	B-SIGNS
 隆	E-SIGNS
 ，	O
@@ -45019,7 +45019,7 @@ m	O
 红	B-SIGNS
 肿	E-SIGNS
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 、	O
 可	O
@@ -45125,8 +45125,8 @@ end
 况	O
 可	O
 ，	O
-心	B-BODY
-肺	B-BODY
+心	S-BODY
+肺	S-BODY
 未	O
 见	O
 异	O
@@ -45205,7 +45205,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
 3	O
 6	O
@@ -45240,7 +45240,7 @@ T	B-CHECK
 动	O
 波	O
 ，	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
 切	O
@@ -45299,7 +45299,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -45307,7 +45307,7 @@ T	B-CHECK
 5	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 ：	O
 7	O
 8	O
@@ -45315,7 +45315,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 1	O
 8	O
@@ -45372,18 +45372,18 @@ g	O
 合	O
 作	O
 。	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 阴	O
 性	O
 ，	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 肋	B-BODY
 下	E-BODY
 未	O
@@ -45623,9 +45623,9 @@ end
 况	O
 可	O
 ，	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 异	O
@@ -45680,9 +45680,9 @@ end
 况	O
 可	O
 ，	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 异	O
@@ -45728,9 +45728,9 @@ end
 况	O
 可	O
 ，	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 检	O
 查	O
 未	O
@@ -46483,7 +46483,7 @@ end
 杂	I-CHECK
 音	E-CHECK
 ，	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -46690,9 +46690,9 @@ end
 明	O
 显	O
 。	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 检	O
 查	O
 未	O
@@ -46848,8 +46848,8 @@ end
 音	O
 清	O
 ，	O
-肺	B-BODY
-肝	B-BODY
+肺	S-BODY
+肝	S-BODY
 相	B-CHECK
 对	I-CHECK
 浊	I-CHECK
@@ -46958,11 +46958,11 @@ end
 溃	O
 破	O
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -47247,11 +47247,11 @@ end
 水	B-SIGNS
 肿	E-SIGNS
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -47659,11 +47659,11 @@ end
 动	O
 波	O
 ，	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -48032,11 +48032,11 @@ end
 曲	I-SIGNS
 张	E-SIGNS
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -48848,13 +48848,13 @@ end
 出	B-SIGNS
 血	E-SIGNS
 。	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 阴	O
 性	O
 ，	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -49068,11 +49068,11 @@ end
 水	B-SIGNS
 肿	E-SIGNS
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -49559,7 +49559,7 @@ end
 曲	I-SIGNS
 张	E-SIGNS
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
 腹	B-BODY
@@ -49721,7 +49721,7 @@ end
 除	O
 ，	O
 排	O
-尿	B-BODY
+尿	S-BODY
 通	O
 畅	O
 ，	O
@@ -49813,11 +49813,11 @@ end
 水	B-SIGNS
 肿	E-SIGNS
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -49997,7 +49997,7 @@ l	O
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -50005,7 +50005,7 @@ T	B-CHECK
 8	O
 C	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
 8	O
 4	O
@@ -50013,7 +50013,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 2	O
 0	O
@@ -50090,11 +50090,11 @@ R	B-CHECK
 水	B-SIGNS
 肿	E-SIGNS
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -50226,7 +50226,7 @@ R	B-CHECK
 少	O
 量	O
 渗	O
-尿	B-BODY
+尿	S-BODY
 。	O
 给	O
 予	O
@@ -50401,9 +50401,9 @@ end
 抵	O
 抗	O
 ，	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 异	O
@@ -50601,9 +50601,9 @@ end
 神	O
 清	O
 ，	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 异	O
@@ -50966,7 +50966,7 @@ l	O
 排	O
 气	O
 排	O
-便	B-BODY
+便	S-BODY
 。	O
 复	O
 查	O
@@ -51213,7 +51213,7 @@ T	I-CHECK
 管	O
 ，	O
 排	O
-尿	B-BODY
+尿	S-BODY
 通	O
 畅	O
 ，	O
@@ -51335,7 +51335,7 @@ end
 曲	I-SIGNS
 张	E-SIGNS
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
 腹	B-BODY
@@ -51549,7 +51549,7 @@ end
 杂	I-CHECK
 音	E-CHECK
 ，	O
-腹	B-BODY
+腹	S-BODY
 膨	B-SIGNS
 隆	E-SIGNS
 ，	O
@@ -51589,7 +51589,7 @@ m	O
 红	B-SIGNS
 肿	E-SIGNS
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 、	O
 可	O
@@ -51904,8 +51904,8 @@ g	O
 音	E-CHECK
 清	O
 ，	O
-肺	B-BODY
-肝	B-BODY
+肺	S-BODY
+肝	S-BODY
 相	B-CHECK
 对	I-CHECK
 浊	I-CHECK
@@ -52005,11 +52005,11 @@ g	O
 曲	I-SIGNS
 张	E-SIGNS
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -52736,7 +52736,7 @@ end
 啰	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
 切	O
@@ -52754,8 +52754,8 @@ end
 紧	I-CHECK
 张	E-CHECK
 。	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -52829,8 +52829,8 @@ end
 况	O
 可	O
 ，	O
-心	B-BODY
-肺	B-BODY
+心	S-BODY
+肺	S-BODY
 未	O
 见	O
 异	O
@@ -52877,8 +52877,8 @@ end
 况	O
 可	O
 ，	O
-心	B-BODY
-肺	B-BODY
+心	S-BODY
+肺	S-BODY
 未	O
 见	O
 异	O
@@ -52926,7 +52926,7 @@ end
 气	O
 、	O
 排	O
-便	B-BODY
+便	S-BODY
 ，	O
 小	B-BODY
 便	E-BODY
@@ -52951,7 +52951,7 @@ end
 啰	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
 腹	B-BODY
@@ -53098,7 +53098,7 @@ end
 动	O
 波	O
 ，	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
 切	O
@@ -53260,8 +53260,8 @@ end
 清	I-CHECK
 音	E-CHECK
 ，	O
-肺	B-BODY
-肝	B-BODY
+肺	S-BODY
+肝	S-BODY
 相	B-CHECK
 对	I-CHECK
 浊	I-CHECK
@@ -53633,11 +53633,11 @@ end
 水	B-SIGNS
 肿	E-SIGNS
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -53774,7 +53774,7 @@ end
 除	O
 ，	O
 排	O
-尿	B-BODY
+尿	S-BODY
 通	O
 畅	O
 。	O
@@ -53913,7 +53913,7 @@ l	O
 杂	I-CHECK
 音	E-CHECK
 ，	O
-腹	B-BODY
+腹	S-BODY
 膨	B-SIGNS
 隆	E-SIGNS
 ，	O
@@ -53953,7 +53953,7 @@ m	O
 红	B-SIGNS
 肿	E-SIGNS
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 、	O
 可	O
@@ -54058,7 +54058,7 @@ end
 除	O
 ，	O
 排	O
-尿	B-BODY
+尿	S-BODY
 通	O
 畅	O
 ，	O
@@ -54150,11 +54150,11 @@ end
 水	B-BODY
 肿	E-BODY
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -54472,13 +54472,13 @@ l	O
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 7	O
 ℃	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
 8	O
 2	O
@@ -54486,7 +54486,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 2	O
 2	O
@@ -54685,8 +54685,8 @@ g	O
 音	E-CHECK
 清	O
 ，	O
-肺	B-BODY
-肝	B-BODY
+肺	S-BODY
+肝	S-BODY
 相	B-CHECK
 对	I-CHECK
 浊	I-CHECK
@@ -54786,11 +54786,11 @@ g	O
 曲	I-SIGNS
 张	E-SIGNS
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -55074,7 +55074,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
 3	O
 6	O
@@ -55113,7 +55113,7 @@ T	B-CHECK
 浅	O
 ，	O
 无	O
-脓	B-BODY
+脓	S-BODY
 性	O
 渗	B-SIGNS
 出	E-SIGNS
@@ -55122,7 +55122,7 @@ T	B-CHECK
 有	O
 少	O
 量	O
-血	B-BODY
+血	S-BODY
 性	O
 渗	B-SIGNS
 出	E-SIGNS
@@ -55356,7 +55356,7 @@ end
 节	I-BODY
 处	E-BODY
 稍	O
-肿	B-SIGNS
+肿	S-SIGNS
 、	O
 轻	O
 度	O
@@ -55454,7 +55454,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -55525,8 +55525,8 @@ T	B-CHECK
 音	E-CHECK
 清	O
 ，	O
-肺	B-BODY
-肝	B-BODY
+肺	S-BODY
+肝	S-BODY
 相	B-CHECK
 对	I-CHECK
 浊	I-CHECK
@@ -55709,9 +55709,9 @@ end
 抵	O
 抗	O
 。	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 异	O
@@ -55771,9 +55771,9 @@ end
 平	O
 稳	O
 。	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 检	O
 查	O
 未	O
@@ -56128,7 +56128,7 @@ g	O
 啰	O
 音	O
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
 无	O
@@ -56364,8 +56364,8 @@ end
 况	O
 可	O
 ，	O
-心	B-BODY
-肺	B-BODY
+心	S-BODY
+肺	S-BODY
 未	O
 见	O
 异	O
@@ -56450,7 +56450,7 @@ end
 吐	E-SIGNS
 。	O
 排	O
-尿	B-BODY
+尿	S-BODY
 正	O
 常	O
 ，	O
@@ -56459,12 +56459,12 @@ end
 气	O
 、	O
 排	O
-便	B-BODY
+便	S-BODY
 。	O
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -56518,7 +56518,7 @@ C	O
 杂	B-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 软	O
 ，	O
@@ -56606,7 +56606,7 @@ end
 气	O
 、	O
 排	O
-便	B-BODY
+便	S-BODY
 。	O
 小	B-BODY
 便	E-BODY
@@ -56615,7 +56615,7 @@ end
 。	O
 查	O
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 7	O
@@ -56623,7 +56623,7 @@ T	B-CHECK
 0	O
 C	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
 8	O
 0	O
@@ -56631,7 +56631,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 1	O
 8	O
@@ -56701,11 +56701,11 @@ R	B-CHECK
 曲	I-SIGNS
 张	E-SIGNS
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -56822,7 +56822,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 7	O
@@ -56845,7 +56845,7 @@ T	B-CHECK
 啰	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 软	O
 ，	O
@@ -56858,8 +56858,8 @@ T	B-CHECK
 动	O
 波	O
 。	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -57014,7 +57014,7 @@ end
 动	O
 波	O
 ，	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
 切	O
@@ -57120,9 +57120,9 @@ end
 神	O
 可	O
 ，	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 检	O
 查	O
 未	O
@@ -57264,7 +57264,7 @@ end
 腹	B-SIGNS
 胀	E-SIGNS
 ，	O
-尿	B-BODY
+尿	S-BODY
 量	O
 正	O
 常	O
@@ -57339,7 +57339,7 @@ end
 曲	I-SIGNS
 张	E-SIGNS
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
 腹	B-BODY
@@ -57534,9 +57534,9 @@ end
 神	O
 清	O
 ，	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 异	O
@@ -57742,7 +57742,7 @@ g	O
 杂	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 膨	B-SIGNS
 隆	E-SIGNS
 ，	O
@@ -57753,8 +57753,8 @@ g	O
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -57864,21 +57864,21 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 3	O
 6	O
 .	O
 4	O
 ℃	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 7	O
 5	O
 次	O
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 1	O
 8	O
 次	O
@@ -57931,7 +57931,7 @@ g	O
 颤	O
 律	O
 ，	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
 未	O
@@ -58027,7 +58027,7 @@ end
 杂	I-CHECK
 音	E-CHECK
 ，	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -58199,7 +58199,7 @@ end
 杂	I-CHECK
 音	E-CHECK
 ，	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -58375,7 +58375,7 @@ end
 灵	O
 敏	O
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -58395,7 +58395,7 @@ end
 动	O
 波	O
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
 上	B-BODY
@@ -58415,8 +58415,8 @@ end
 紧	I-CHECK
 张	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 均	O
 未	O
 触	O
@@ -58511,7 +58511,7 @@ end
 灵	O
 敏	O
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -58524,7 +58524,7 @@ end
 动	O
 波	O
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
 无	O
@@ -58536,8 +58536,8 @@ end
 紧	I-CHECK
 张	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 均	O
 未	O
 触	O
@@ -58831,7 +58831,7 @@ end
 畸	B-SIGNS
 形	E-SIGNS
 ，	O
-胸	B-BODY
+胸	S-BODY
 带	O
 固	O
 定	O
@@ -59042,9 +59042,9 @@ end
 况	O
 可	O
 ，	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 异	O
@@ -59247,9 +59247,9 @@ m	O
 灵	O
 敏	O
 。	O
-耳	B-BODY
+耳	S-BODY
 、	O
-鼻	B-BODY
+鼻	S-BODY
 、	O
 喉	B-BODY
 腔	E-BODY
@@ -59455,21 +59455,21 @@ X	I-CHECK
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 3	O
 6	O
 .	O
 1	O
 C	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 8	O
 7	O
 次	O
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 1	O
 8	O
 次	O
@@ -59489,8 +59489,8 @@ m	O
 H	O
 g	O
 ,	O
-心	B-BODY
-肺	B-BODY
+心	S-BODY
+肺	S-BODY
 查	B-CHECK
 体	E-CHECK
 未	O
@@ -60338,7 +60338,7 @@ m	O
 正	O
 常	O
 。	O
-鼻	B-BODY
+鼻	S-BODY
 无	O
 畸	B-SIGNS
 形	E-SIGNS
@@ -60365,7 +60365,7 @@ m	O
 苍	B-SIGNS
 白	E-SIGNS
 ，	O
-咽	B-BODY
+咽	S-BODY
 无	O
 充	B-SIGNS
 血	E-SIGNS
@@ -60378,7 +60378,7 @@ m	O
 不	O
 大	O
 。	O
-颈	B-BODY
+颈	S-BODY
 左	O
 右	O
 对	O
@@ -60477,8 +60477,8 @@ m	O
 音	E-CHECK
 清	O
 ，	O
-肺	B-BODY
-肝	B-BODY
+肺	S-BODY
+肝	S-BODY
 相	B-CHECK
 对	I-CHECK
 浊	I-CHECK
@@ -60578,11 +60578,11 @@ m	O
 曲	I-SIGNS
 张	E-SIGNS
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -60721,7 +60721,7 @@ m	O
 音	E-CHECK
 清	O
 ，	O
-腹	B-BODY
+腹	S-BODY
 软	O
 、	O
 无	O
@@ -60975,7 +60975,7 @@ T	E-CHECK
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -60983,7 +60983,7 @@ T	B-CHECK
 6	O
 C	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
 7	O
 2	O
@@ -60991,7 +60991,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 1	O
 9	O
@@ -61123,8 +61123,8 @@ g	O
 音	E-CHECK
 清	O
 ，	O
-肺	B-BODY
-肝	B-BODY
+肺	S-BODY
+肝	S-BODY
 相	B-CHECK
 对	I-CHECK
 浊	I-CHECK
@@ -61232,11 +61232,11 @@ g	O
 水	B-SIGNS
 肿	E-SIGNS
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -61651,7 +61651,7 @@ R	E-CHECK
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -61659,7 +61659,7 @@ T	B-CHECK
 8	O
 C	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
 8	O
 0	O
@@ -61667,7 +61667,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 2	O
 0	O
@@ -61801,8 +61801,8 @@ g	O
 音	E-CHECK
 清	O
 ，	O
-肺	B-BODY
-肝	B-BODY
+肺	S-BODY
+肝	S-BODY
 相	B-CHECK
 对	I-CHECK
 浊	I-CHECK
@@ -61902,11 +61902,11 @@ g	O
 曲	I-SIGNS
 张	E-SIGNS
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -62683,9 +62683,9 @@ end
 况	O
 可	O
 ，	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 异	O
@@ -62934,7 +62934,7 @@ end
 正	O
 常	O
 。	O
-鼻	B-BODY
+鼻	S-BODY
 无	O
 畸	B-SIGNS
 形	E-SIGNS
@@ -62961,7 +62961,7 @@ end
 苍	B-SIGNS
 白	E-SIGNS
 ，	O
-咽	B-BODY
+咽	S-BODY
 无	O
 充	B-SIGNS
 血	E-SIGNS
@@ -62974,7 +62974,7 @@ end
 不	O
 大	O
 。	O
-颈	B-BODY
+颈	S-BODY
 左	O
 右	O
 对	O
@@ -63073,8 +63073,8 @@ end
 音	E-CHECK
 清	O
 ，	O
-肺	B-BODY
-肝	B-BODY
+肺	S-BODY
+肝	S-BODY
 相	B-CHECK
 对	I-CHECK
 浊	I-CHECK
@@ -63174,7 +63174,7 @@ end
 曲	I-SIGNS
 张	E-SIGNS
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
 无	O
@@ -63336,7 +63336,7 @@ end
 /	O
 分	O
 ，	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
 左	O
@@ -63399,7 +63399,7 @@ C	I-CHECK
 T	E-CHECK
 示	O
 ：	O
-肝	B-BODY
+肝	S-BODY
 囊	O
 肿	O
 ，	O
@@ -63621,7 +63621,7 @@ v	O
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -63629,7 +63629,7 @@ T	B-CHECK
 9	O
 C	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
 7	O
 8	O
@@ -63637,7 +63637,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 2	O
 0	O
@@ -63770,8 +63770,8 @@ g	O
 音	E-CHECK
 清	O
 ，	O
-肺	B-BODY
-肝	B-BODY
+肺	S-BODY
+肝	S-BODY
 相	B-CHECK
 对	I-CHECK
 浊	I-CHECK
@@ -63871,11 +63871,11 @@ g	O
 曲	I-SIGNS
 张	E-SIGNS
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -64315,7 +64315,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -64323,7 +64323,7 @@ T	B-CHECK
 9	O
 C	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
 7	O
 8	O
@@ -64331,7 +64331,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 2	O
 0	O
@@ -64464,8 +64464,8 @@ g	O
 音	E-CHECK
 清	O
 ，	O
-肺	B-BODY
-肝	B-BODY
+肺	S-BODY
+肝	S-BODY
 相	B-CHECK
 对	I-CHECK
 浊	I-CHECK
@@ -64565,11 +64565,11 @@ g	O
 曲	I-SIGNS
 张	E-SIGNS
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -64937,7 +64937,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -64945,7 +64945,7 @@ T	B-CHECK
 0	O
 C	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
 9	O
 6	O
@@ -64953,7 +64953,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 2	O
 0	O
@@ -65006,8 +65006,8 @@ g	O
 合	O
 作	O
 。	O
-心	B-BODY
-肺	B-BODY
+心	S-BODY
+肺	S-BODY
 检	O
 查	O
 未	O
@@ -65039,11 +65039,11 @@ g	O
 曲	I-SIGNS
 张	E-SIGNS
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -65334,7 +65334,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -65342,7 +65342,7 @@ T	B-CHECK
 0	O
 C	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
 6	O
 8	O
@@ -65350,7 +65350,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 2	O
 0	O
@@ -65405,8 +65405,8 @@ g	O
 抵	O
 抗	O
 。	O
-心	B-BODY
-肺	B-BODY
+心	S-BODY
+肺	S-BODY
 检	O
 查	O
 未	O
@@ -65438,11 +65438,11 @@ g	O
 曲	I-SIGNS
 张	E-SIGNS
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -66189,9 +66189,9 @@ end
 况	O
 可	O
 ，	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 异	O
@@ -66459,7 +66459,7 @@ end
 正	O
 常	O
 。	O
-鼻	B-BODY
+鼻	S-BODY
 无	O
 畸	B-SIGNS
 形	E-SIGNS
@@ -66486,7 +66486,7 @@ end
 苍	B-SIGNS
 白	E-SIGNS
 ，	O
-咽	B-BODY
+咽	S-BODY
 无	O
 充	B-SIGNS
 血	E-SIGNS
@@ -66499,7 +66499,7 @@ end
 不	O
 大	O
 。	O
-颈	B-BODY
+颈	S-BODY
 左	O
 右	O
 对	O
@@ -66598,8 +66598,8 @@ end
 音	E-CHECK
 清	O
 ，	O
-肺	B-BODY
-肝	B-BODY
+肺	S-BODY
+肝	S-BODY
 相	B-CHECK
 对	I-CHECK
 浊	I-CHECK
@@ -66699,7 +66699,7 @@ end
 曲	I-SIGNS
 张	E-SIGNS
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
 无	O
@@ -67188,7 +67188,7 @@ end
 正	O
 常	O
 。	O
-鼻	B-BODY
+鼻	S-BODY
 无	O
 畸	B-SIGNS
 形	E-SIGNS
@@ -67215,7 +67215,7 @@ end
 苍	B-SIGNS
 白	E-SIGNS
 ，	O
-咽	B-BODY
+咽	S-BODY
 无	O
 充	B-SIGNS
 血	E-SIGNS
@@ -67228,7 +67228,7 @@ end
 不	O
 大	O
 。	O
-颈	B-BODY
+颈	S-BODY
 左	O
 右	O
 对	O
@@ -67327,8 +67327,8 @@ end
 音	E-CHECK
 清	O
 ，	O
-肺	B-BODY
-肝	B-BODY
+肺	S-BODY
+肝	S-BODY
 相	B-CHECK
 对	I-CHECK
 浊	I-CHECK
@@ -67428,7 +67428,7 @@ end
 曲	I-SIGNS
 张	E-SIGNS
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
 无	O
@@ -67595,7 +67595,7 @@ end
 动	O
 可	O
 ，	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
 无	O
@@ -67784,7 +67784,7 @@ end
 诊	O
 ，	O
 诉	O
-胸	B-BODY
+胸	S-BODY
 闷	O
 给	O
 予	O
@@ -67830,7 +67830,7 @@ T	E-CHECK
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 7	O
@@ -67838,7 +67838,7 @@ T	B-CHECK
 1	O
 C	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
 9	O
 8	O
@@ -67846,7 +67846,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 2	O
 0	O
@@ -68132,8 +68132,8 @@ i	I-CHECK
 音	E-CHECK
 清	O
 ，	O
-肺	B-BODY
-肝	B-BODY
+肺	S-BODY
+肝	S-BODY
 相	B-CHECK
 对	I-CHECK
 浊	I-CHECK
@@ -68405,7 +68405,7 @@ C	O
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -68413,7 +68413,7 @@ T	B-CHECK
 0	O
 C	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
 1	O
 0	O
@@ -68422,7 +68422,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 2	O
 0	O
@@ -68540,8 +68540,8 @@ R	B-CHECK
 音	E-CHECK
 清	O
 ，	O
-肺	B-BODY
-肝	B-BODY
+肺	S-BODY
+肝	S-BODY
 相	B-CHECK
 对	I-CHECK
 浊	I-CHECK
@@ -68642,11 +68642,11 @@ R	B-CHECK
 曲	I-SIGNS
 张	E-SIGNS
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -69096,14 +69096,14 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 3	O
 7	O
 .	O
 2	O
 C	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 1	O
 0	O
 0	O
@@ -69111,7 +69111,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 1	O
 8	O
 次	O
@@ -69490,12 +69490,12 @@ T	E-CHECK
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 3	O
 7	O
 C	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 1	O
 2	O
 0	O
@@ -69503,7 +69503,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 2	O
 2	O
 次	O
@@ -69801,7 +69801,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -69812,7 +69812,7 @@ T	B-CHECK
 9	O
 ℃	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
 9	O
 8	O
@@ -69820,7 +69820,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 :	O
 2	O
 2	O
@@ -69828,7 +69828,7 @@ R	B-CHECK
 /	O
 分	O
 ，	O
-W	B-CHECK
+W	S-CHECK
 :	O
 2	O
 5	O
@@ -70058,7 +70058,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -70368,7 +70368,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -70379,7 +70379,7 @@ T	B-CHECK
 1	O
 ℃	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
  	O
 1	O
@@ -70389,7 +70389,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 :	O
  	O
 2	O
@@ -70399,7 +70399,7 @@ R	B-CHECK
 /	O
 分	O
 ，	O
-W	B-CHECK
+W	S-CHECK
 :	O
 2	O
 0	O
@@ -70648,7 +70648,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -71054,21 +71054,21 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 3	O
 6	O
 .	O
 8	O
 C	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 8	O
 0	O
 次	O
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 1	O
 8	O
 次	O
@@ -71481,13 +71481,13 @@ m	O
 泌	O
 物	O
 ；	O
-唇	B-BODY
+唇	S-BODY
 无	O
 发	B-SIGNS
 绀	E-SIGNS
 ，	O
 无	O
-咽	B-BODY
+咽	S-BODY
 红	O
 及	O
 扁	B-BODY
@@ -71635,7 +71635,7 @@ m	O
 杂	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -71665,8 +71665,8 @@ m	O
 动	O
 波	O
 。	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 肋	B-BODY
 下	E-BODY
 未	O
@@ -71958,13 +71958,13 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
 3	O
 8	O
 ℃	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
  	O
 1	O
@@ -71974,7 +71974,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 :	O
  	O
 2	O
@@ -71984,7 +71984,7 @@ R	B-CHECK
 /	O
 分	O
 ，	O
-W	B-CHECK
+W	S-CHECK
 :	O
 1	O
 3	O
@@ -72237,7 +72237,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -72597,7 +72597,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -72608,7 +72608,7 @@ T	B-CHECK
 2	O
 ℃	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
 1	O
 1	O
@@ -72617,7 +72617,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 :	O
 2	O
 2	O
@@ -72625,7 +72625,7 @@ R	B-CHECK
 /	O
 分	O
 ，	O
-W	B-CHECK
+W	S-CHECK
 :	O
 1	O
 2	O
@@ -72887,7 +72887,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -73179,7 +73179,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -73189,7 +73189,7 @@ T	B-CHECK
 .	O
 5	O
 ℃	O
-P	B-CHECK
+P	S-CHECK
 :	O
 1	O
 0	O
@@ -73197,14 +73197,14 @@ P	B-CHECK
 次	O
 /	O
 分	O
-R	B-CHECK
+R	S-CHECK
 :	O
 2	O
 0	O
 次	O
 /	O
 分	O
-W	B-CHECK
+W	S-CHECK
 :	O
 1	O
 8	O
@@ -73362,7 +73362,7 @@ g	O
 肿	B-SIGNS
 大	E-SIGNS
 ，	O
-咽	B-BODY
+咽	S-BODY
 后	O
 光	O
 滑	O
@@ -73446,7 +73446,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -73796,7 +73796,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -73807,7 +73807,7 @@ T	B-CHECK
 2	O
 ℃	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
 1	O
 0	O
@@ -73816,7 +73816,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 :	O
 2	O
 2	O
@@ -73824,7 +73824,7 @@ R	B-CHECK
 /	O
 分	O
 ，	O
-W	B-CHECK
+W	S-CHECK
 :	O
 1	O
 9	O
@@ -74055,7 +74055,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -74474,7 +74474,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
 3	O
 6	O
@@ -74482,7 +74482,7 @@ T	B-CHECK
 7	O
 ℃	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
  	O
 9	O
@@ -74491,7 +74491,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 :	O
  	O
 2	O
@@ -74501,7 +74501,7 @@ R	B-CHECK
 /	O
 分	O
 ，	O
-W	B-CHECK
+W	S-CHECK
 :	O
 1	O
 9	O
@@ -74753,7 +74753,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -75120,7 +75120,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -75131,7 +75131,7 @@ T	B-CHECK
 7	O
 ℃	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
 1	O
 0	O
@@ -75140,7 +75140,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 :	O
 2	O
 2	O
@@ -75148,7 +75148,7 @@ R	B-CHECK
 /	O
 分	O
 ，	O
-W	B-CHECK
+W	S-CHECK
 :	O
 8	O
 K	O
@@ -75391,7 +75391,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -75574,7 +75574,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -75583,7 +75583,7 @@ T	B-CHECK
 8	O
 ℃	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
 1	O
 2	O
@@ -75592,7 +75592,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 :	O
 2	O
 2	O
@@ -75600,7 +75600,7 @@ R	B-CHECK
 /	O
 分	O
 ，	O
-W	B-CHECK
+W	S-CHECK
 :	O
 9	O
 K	O
@@ -75838,7 +75838,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -76175,7 +76175,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
 3	O
@@ -76184,7 +76184,7 @@ T	B-CHECK
 5	O
 ℃	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
 1	O
 0	O
@@ -76193,7 +76193,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 :	O
 2	O
 0	O
@@ -76201,7 +76201,7 @@ R	B-CHECK
 /	O
 分	O
 ，	O
-W	B-CHECK
+W	S-CHECK
 :	O
 1	O
 8	O
@@ -76433,7 +76433,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -76763,7 +76763,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
 3	O
 7	O
@@ -76772,7 +76772,7 @@ T	B-CHECK
  	O
 ℃	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
  	O
 1	O
@@ -76782,7 +76782,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 :	O
  	O
 2	O
@@ -76792,7 +76792,7 @@ R	B-CHECK
 /	O
 分	O
 ，	O
-W	B-CHECK
+W	S-CHECK
 :	O
 2	O
 3	O
@@ -77047,7 +77047,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -77276,7 +77276,7 @@ end
 嗽	E-SIGNS
 ，	O
 有	O
-痰	B-BODY
+痰	S-BODY
 ，	O
 不	O
 易	O
@@ -77308,7 +77308,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -77316,7 +77316,7 @@ T	B-CHECK
 7	O
 ℃	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 ：	O
 8	O
 4	O
@@ -77324,7 +77324,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 2	O
 4	O
@@ -77332,7 +77332,7 @@ R	B-CHECK
 /	O
 分	O
 ，	O
-W	B-CHECK
+W	S-CHECK
 ：	O
 1	O
 4	O
@@ -77416,7 +77416,7 @@ g	O
 泌	O
 物	O
 ，	O
-鼻	B-BODY
+鼻	S-BODY
 无	O
 异	O
 常	O
@@ -77437,7 +77437,7 @@ g	O
 光	O
 滑	O
 ，	O
-咽	B-BODY
+咽	S-BODY
 充	B-SIGNS
 血	E-SIGNS
 ，	O
@@ -77563,8 +77563,8 @@ g	O
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 闻	O
 及	O
@@ -77915,7 +77915,7 @@ L	O
 泡	O
 音	O
 ，	O
-胸	B-BODY
+胸	S-BODY
 片	O
 可	O
 视	O
@@ -78186,18 +78186,18 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 3	O
 7	O
 C	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 6	O
 4	O
 次	O
 /	O
 分	O
-R	B-CHECK
+R	S-CHECK
 1	O
 8	O
 次	O
@@ -78379,7 +78379,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
 3	O
 6	O
@@ -78387,7 +78387,7 @@ T	B-CHECK
 5	O
 ℃	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
  	O
 1	O
@@ -78397,7 +78397,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 :	O
 2	O
 0	O
@@ -78406,7 +78406,7 @@ R	B-CHECK
 /	O
 分	O
 ，	O
-W	B-CHECK
+W	S-CHECK
 :	O
 1	O
 3	O
@@ -78707,7 +78707,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -79028,7 +79028,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
 3	O
 6	O
@@ -79036,7 +79036,7 @@ T	B-CHECK
 5	O
 ℃	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
  	O
 9	O
@@ -79045,7 +79045,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 :	O
  	O
 2	O
@@ -79055,7 +79055,7 @@ R	B-CHECK
 /	O
 分	O
 ，	O
-W	B-CHECK
+W	S-CHECK
 :	O
 2	O
 0	O
@@ -79289,7 +79289,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -79531,7 +79531,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
 3	O
 8	O
@@ -79539,7 +79539,7 @@ T	B-CHECK
 1	O
 ℃	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
 1	O
 1	O
@@ -79548,7 +79548,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 :	O
  	O
 2	O
@@ -79557,7 +79557,7 @@ R	B-CHECK
 /	O
 分	O
 ，	O
-W	B-CHECK
+W	S-CHECK
 :	O
 1	O
 0	O
@@ -79811,7 +79811,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -80068,7 +80068,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
 3	O
@@ -80077,7 +80077,7 @@ T	B-CHECK
 5	O
 ℃	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
 1	O
 0	O
@@ -80086,7 +80086,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 :	O
 2	O
 2	O
@@ -80094,7 +80094,7 @@ R	B-CHECK
 /	O
 分	O
 ，	O
-W	B-CHECK
+W	S-CHECK
 :	O
 2	O
 0	O
@@ -80325,7 +80325,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -80656,7 +80656,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
 3	O
 7	O
@@ -80665,7 +80665,7 @@ T	B-CHECK
  	O
 ℃	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
  	O
 1	O
@@ -80675,7 +80675,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 :	O
  	O
 2	O
@@ -80685,7 +80685,7 @@ R	B-CHECK
 /	O
 分	O
 ，	O
-W	B-CHECK
+W	S-CHECK
 :	O
 2	O
 4	O
@@ -80946,7 +80946,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -81130,7 +81130,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
 3	O
 6	O
@@ -81138,7 +81138,7 @@ T	B-CHECK
 9	O
 ℃	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
 1	O
 1	O
@@ -81147,7 +81147,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 :	O
  	O
 2	O
@@ -81156,7 +81156,7 @@ R	B-CHECK
 /	O
 分	O
 ，	O
-W	B-CHECK
+W	S-CHECK
 :	O
 1	O
 1	O
@@ -81409,7 +81409,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -81733,7 +81733,7 @@ end
 热	E-SIGNS
 ，	O
 流	O
-涕	B-BODY
+涕	S-BODY
 ，	O
 饮	O
 食	O
@@ -81753,7 +81753,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
 3	O
 8	O
@@ -81762,7 +81762,7 @@ T	B-CHECK
 ℃	O
 >	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
  	O
 1	O
@@ -81772,7 +81772,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 :	O
  	O
 2	O
@@ -81782,7 +81782,7 @@ R	B-CHECK
 /	O
 分	O
 ，	O
-W	B-CHECK
+W	S-CHECK
 :	O
 1	O
 6	O
@@ -82030,7 +82030,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -82409,7 +82409,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -82420,7 +82420,7 @@ T	B-CHECK
 7	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
 9	O
 8	O
@@ -82428,7 +82428,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 :	O
 2	O
 0	O
@@ -82436,7 +82436,7 @@ R	B-CHECK
 /	O
 分	O
 、	O
-W	B-CHECK
+W	S-CHECK
 :	O
 2	O
 5	O
@@ -82671,7 +82671,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -82813,8 +82813,8 @@ X	B-CHECK
 院	O
 ）	O
 ：	O
-心	B-BODY
-肺	B-BODY
+心	S-BODY
+肺	S-BODY
 未	O
 见	O
 异	O
@@ -83049,13 +83049,13 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
 3	O
 6	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
  	O
 1	O
@@ -83065,7 +83065,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 :	O
  	O
 2	O
@@ -83075,7 +83075,7 @@ R	B-CHECK
 /	O
 分	O
 、	O
-W	B-CHECK
+W	S-CHECK
 :	O
 4	O
 3	O
@@ -83336,7 +83336,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -83694,7 +83694,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
 3	O
@@ -83703,7 +83703,7 @@ T	B-CHECK
 5	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
 1	O
 1	O
@@ -83712,7 +83712,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 :	O
 2	O
 0	O
@@ -83720,7 +83720,7 @@ R	B-CHECK
 /	O
 分	O
 、	O
-W	B-CHECK
+W	S-CHECK
 :	O
 1	O
 5	O
@@ -83951,7 +83951,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -84351,20 +84351,20 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 3	O
 6	O
 .	O
 4	O
 ℃	O
-P	B-CHECK
+P	S-CHECK
 1	O
 2	O
 0	O
 次	O
 /	O
 分	O
-R	B-CHECK
+R	S-CHECK
 2	O
 0	O
 次	O
@@ -84446,7 +84446,7 @@ g	O
 曲	I-SIGNS
 张	E-SIGNS
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
 无	O
@@ -84461,8 +84461,8 @@ g	O
 紧	I-CHECK
 张	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -84652,7 +84652,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
 3	O
 6	O
@@ -84660,7 +84660,7 @@ T	B-CHECK
 5	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
  	O
 1	O
@@ -84670,7 +84670,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 :	O
  	O
 2	O
@@ -84680,7 +84680,7 @@ R	B-CHECK
 /	O
 分	O
 、	O
-W	B-CHECK
+W	S-CHECK
 :	O
 2	O
 4	O
@@ -84934,7 +84934,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -85371,7 +85371,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
 3	O
@@ -85380,7 +85380,7 @@ T	B-CHECK
 6	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
 1	O
 0	O
@@ -85389,7 +85389,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 :	O
 2	O
 2	O
@@ -85397,7 +85397,7 @@ R	B-CHECK
 /	O
 分	O
 、	O
-W	B-CHECK
+W	S-CHECK
 :	O
 2	O
 4	O
@@ -85629,7 +85629,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -85833,13 +85833,13 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
 3	O
 8	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
 1	O
 2	O
@@ -85848,7 +85848,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 :	O
  	O
 2	O
@@ -85856,7 +85856,7 @@ R	B-CHECK
 次	O
 /	O
 分	O
-W	B-CHECK
+W	S-CHECK
 :	O
 1	O
 2	O
@@ -86109,7 +86109,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -86506,7 +86506,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -86517,7 +86517,7 @@ T	B-CHECK
 9	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
 9	O
 6	O
@@ -86525,7 +86525,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 :	O
 2	O
 0	O
@@ -86533,7 +86533,7 @@ R	B-CHECK
 /	O
 分	O
 、	O
-W	B-CHECK
+W	S-CHECK
 :	O
 6	O
 0	O
@@ -86766,7 +86766,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -87053,7 +87053,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -87062,7 +87062,7 @@ T	B-CHECK
 9	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
 1	O
 0	O
@@ -87071,7 +87071,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 :	O
 2	O
 2	O
@@ -87079,7 +87079,7 @@ R	B-CHECK
 /	O
 分	O
 、	O
-W	B-CHECK
+W	S-CHECK
 :	O
 2	O
 0	O
@@ -87316,7 +87316,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -87593,7 +87593,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
 3	O
 6	O
@@ -87601,7 +87601,7 @@ T	B-CHECK
 2	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
  	O
 1	O
@@ -87611,7 +87611,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 :	O
 2	O
 0	O
@@ -87620,7 +87620,7 @@ R	B-CHECK
 /	O
 分	O
 、	O
-W	B-CHECK
+W	S-CHECK
 :	O
 1	O
 9	O
@@ -87920,7 +87920,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -88206,7 +88206,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -88217,7 +88217,7 @@ T	B-CHECK
 4	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
 1	O
 0	O
@@ -88226,7 +88226,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 :	O
 2	O
 2	O
@@ -88234,7 +88234,7 @@ R	B-CHECK
 /	O
 分	O
 、	O
-W	B-CHECK
+W	S-CHECK
 :	O
 1	O
 5	O
@@ -88701,7 +88701,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -88712,7 +88712,7 @@ T	B-CHECK
 3	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
 1	O
 0	O
@@ -88721,7 +88721,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 :	O
 2	O
 2	O
@@ -88729,7 +88729,7 @@ R	B-CHECK
 /	O
 分	O
 、	O
-W	B-CHECK
+W	S-CHECK
 :	O
 4	O
 7	O
@@ -88968,7 +88968,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -89243,7 +89243,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
 3	O
 6	O
@@ -89251,7 +89251,7 @@ T	B-CHECK
 6	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
 1	O
 0	O
@@ -89260,7 +89260,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 :	O
  	O
 2	O
@@ -89269,7 +89269,7 @@ R	B-CHECK
 /	O
 分	O
 、	O
-W	B-CHECK
+W	S-CHECK
 :	O
 2	O
 0	O
@@ -89525,7 +89525,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -89884,7 +89884,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -89895,7 +89895,7 @@ T	B-CHECK
 5	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
 9	O
 8	O
@@ -89903,7 +89903,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 :	O
 2	O
 0	O
@@ -89911,7 +89911,7 @@ R	B-CHECK
 /	O
 分	O
 、	O
-W	B-CHECK
+W	S-CHECK
 :	O
 1	O
 7	O
@@ -90146,7 +90146,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -90590,21 +90590,21 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 3	O
 6	O
 .	O
 9	O
 C	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 8	O
 6	O
 次	O
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 1	O
 8	O
 次	O
@@ -90624,9 +90624,9 @@ m	O
 H	O
 g	O
 ,	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 异	O
@@ -90821,7 +90821,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
 3	O
@@ -90830,7 +90830,7 @@ T	B-CHECK
 5	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
 1	O
 0	O
@@ -90839,7 +90839,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 :	O
 2	O
 2	O
@@ -90847,7 +90847,7 @@ R	B-CHECK
 /	O
 分	O
 、	O
-W	B-CHECK
+W	S-CHECK
 :	O
 2	O
 2	O
@@ -91081,7 +91081,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -91404,7 +91404,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
 3	O
@@ -91413,7 +91413,7 @@ T	B-CHECK
 6	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
 1	O
 0	O
@@ -91422,7 +91422,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 :	O
 2	O
 2	O
@@ -91430,7 +91430,7 @@ R	B-CHECK
 /	O
 分	O
 、	O
-W	B-CHECK
+W	S-CHECK
 :	O
 6	O
 6	O
@@ -91666,7 +91666,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -92010,14 +92010,14 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
 3	O
 9	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
 1	O
 0	O
@@ -92026,7 +92026,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 :	O
 2	O
 2	O
@@ -92034,7 +92034,7 @@ R	B-CHECK
 /	O
 分	O
 、	O
-W	B-CHECK
+W	S-CHECK
 :	O
 2	O
 1	O
@@ -92270,7 +92270,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -92667,7 +92667,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
 3	O
@@ -92676,7 +92676,7 @@ T	B-CHECK
 5	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
 1	O
 0	O
@@ -92685,7 +92685,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 :	O
 2	O
 0	O
@@ -92693,7 +92693,7 @@ R	B-CHECK
 /	O
 分	O
 、	O
-W	B-CHECK
+W	S-CHECK
 :	O
 1	O
 8	O
@@ -92929,7 +92929,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -93261,7 +93261,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
 3	O
@@ -93270,7 +93270,7 @@ T	B-CHECK
 6	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
 1	O
 0	O
@@ -93279,7 +93279,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 :	O
 2	O
 0	O
@@ -93287,7 +93287,7 @@ R	B-CHECK
 /	O
 分	O
 、	O
-W	B-CHECK
+W	S-CHECK
 :	O
 2	O
 0	O
@@ -93521,7 +93521,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -93791,7 +93791,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
 3	O
 6	O
@@ -93799,7 +93799,7 @@ T	B-CHECK
 5	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
  	O
 1	O
@@ -93809,7 +93809,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 :	O
  	O
 2	O
@@ -93819,7 +93819,7 @@ R	B-CHECK
 /	O
 分	O
 、	O
-W	B-CHECK
+W	S-CHECK
 :	O
 1	O
 8	O
@@ -94069,7 +94069,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -94383,7 +94383,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -94394,7 +94394,7 @@ T	B-CHECK
 9	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
 1	O
 0	O
@@ -94403,7 +94403,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 :	O
 2	O
 0	O
@@ -94411,7 +94411,7 @@ R	B-CHECK
 /	O
 分	O
 、	O
-W	B-CHECK
+W	S-CHECK
 :	O
 4	O
 0	O
@@ -94670,7 +94670,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -95018,7 +95018,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -95029,7 +95029,7 @@ T	B-CHECK
 4	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
 1	O
 0	O
@@ -95038,7 +95038,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 :	O
 2	O
 2	O
@@ -95046,7 +95046,7 @@ R	B-CHECK
 /	O
 分	O
 、	O
-W	B-CHECK
+W	S-CHECK
 :	O
 1	O
 5	O
@@ -95297,7 +95297,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -95578,7 +95578,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
 3	O
@@ -95587,7 +95587,7 @@ T	B-CHECK
 9	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
  	O
 9	O
@@ -95596,7 +95596,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 :	O
  	O
 2	O
@@ -95606,7 +95606,7 @@ R	B-CHECK
 /	O
 分	O
 、	O
-W	B-CHECK
+W	S-CHECK
 :	O
 2	O
 3	O
@@ -95856,7 +95856,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -96073,7 +96073,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
 3	O
@@ -96082,7 +96082,7 @@ T	B-CHECK
 5	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
 1	O
 0	O
@@ -96091,7 +96091,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 :	O
 2	O
 0	O
@@ -96099,7 +96099,7 @@ R	B-CHECK
 /	O
 分	O
 、	O
-W	B-CHECK
+W	S-CHECK
 :	O
 1	O
 5	O
@@ -96330,7 +96330,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -97048,13 +97048,13 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
 3	O
 9	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
  	O
 1	O
@@ -97064,7 +97064,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 :	O
  	O
 2	O
@@ -97074,7 +97074,7 @@ R	B-CHECK
 /	O
 分	O
 、	O
-W	B-CHECK
+W	S-CHECK
 :	O
 1	O
 6	O
@@ -97334,7 +97334,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -97447,7 +97447,7 @@ g	O
 检	O
 查	O
 ：	O
-血	B-BODY
+血	S-BODY
 常	O
 规	O
 示	O
@@ -97670,7 +97670,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
 3	O
 7	O
@@ -97678,7 +97678,7 @@ T	B-CHECK
 7	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
  	O
 1	O
@@ -97688,7 +97688,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 :	O
 2	O
 0	O
@@ -97697,7 +97697,7 @@ R	B-CHECK
 /	O
 分	O
 、	O
-W	B-CHECK
+W	S-CHECK
 :	O
 1	O
 2	O
@@ -97998,7 +97998,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -98379,7 +98379,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -98389,7 +98389,7 @@ T	B-CHECK
 1	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
 9	O
 6	O
@@ -98397,7 +98397,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 :	O
 2	O
 0	O
@@ -98641,7 +98641,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -98756,14 +98756,14 @@ g	O
 示	O
 ：	O
 两	O
-肺	B-BODY
+肺	S-BODY
 纹	O
 理	O
 增	O
 多	O
 ，	O
 沿	O
-肺	B-BODY
+肺	S-BODY
 纹	O
 理	O
 间	O
@@ -98859,7 +98859,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
 3	O
 7	O
@@ -98867,7 +98867,7 @@ T	B-CHECK
 4	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
  	O
 1	O
@@ -98877,7 +98877,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 :	O
  	O
 2	O
@@ -98887,7 +98887,7 @@ R	B-CHECK
 /	O
 分	O
 、	O
-W	B-CHECK
+W	S-CHECK
 :	O
 1	O
 2	O
@@ -99136,7 +99136,7 @@ g	O
 摩	B-CHECK
 擦	I-CHECK
 音	E-CHECK
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -99262,7 +99262,7 @@ g	O
 ，	O
 右	O
 下	O
-肺	B-BODY
+肺	S-BODY
 可	O
 见	O
 斑	O
@@ -99460,7 +99460,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
 3	O
 9	O
@@ -99468,7 +99468,7 @@ T	B-CHECK
 8	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
  	O
 1	O
@@ -99478,7 +99478,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 :	O
  	O
 2	O
@@ -99488,7 +99488,7 @@ R	B-CHECK
 /	O
 分	O
 、	O
-W	B-CHECK
+W	S-CHECK
 :	O
 1	O
 1	O
@@ -100134,7 +100134,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
 3	O
 7	O
@@ -100142,7 +100142,7 @@ T	B-CHECK
 5	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
  	O
 1	O
@@ -100152,7 +100152,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 :	O
  	O
 2	O
@@ -100162,7 +100162,7 @@ R	B-CHECK
 /	O
 分	O
 、	O
-W	B-CHECK
+W	S-CHECK
 :	O
 1	O
 1	O
@@ -100413,7 +100413,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -100747,13 +100747,13 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
 3	O
 9	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
  	O
 1	O
@@ -100763,7 +100763,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 :	O
  	O
 2	O
@@ -100773,7 +100773,7 @@ R	B-CHECK
 /	O
 分	O
 、	O
-W	B-CHECK
+W	S-CHECK
 :	O
 1	O
 5	O
@@ -101024,7 +101024,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -101387,7 +101387,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
 3	O
@@ -101396,7 +101396,7 @@ T	B-CHECK
 5	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
 1	O
 1	O
@@ -101405,7 +101405,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 :	O
 2	O
 0	O
@@ -101413,7 +101413,7 @@ R	B-CHECK
 /	O
 分	O
 、	O
-W	B-CHECK
+W	S-CHECK
 :	O
 1	O
 5	O
@@ -101640,7 +101640,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -101952,7 +101952,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -101962,7 +101962,7 @@ T	B-CHECK
 7	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
 9	O
 8	O
@@ -101970,7 +101970,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 :	O
 2	O
 0	O
@@ -101978,7 +101978,7 @@ R	B-CHECK
 /	O
 分	O
 、	O
-W	B-CHECK
+W	S-CHECK
 :	O
 3	O
 0	O
@@ -102214,7 +102214,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -102646,7 +102646,7 @@ R	E-CHECK
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -102655,13 +102655,13 @@ T	B-CHECK
  	O
 C	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
 9	O
 4	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 2	O
 0	O
@@ -102724,8 +102724,8 @@ R	B-CHECK
 清	I-CHECK
 音	E-CHECK
 ，	O
-肺	B-BODY
-肝	B-BODY
+肺	S-BODY
+肝	S-BODY
 相	B-CHECK
 对	I-CHECK
 浊	I-CHECK
@@ -102774,7 +102774,7 @@ R	B-CHECK
 情	O
 况	O
 ：	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -102787,7 +102787,7 @@ R	B-CHECK
 动	O
 波	O
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
 左	B-BODY
@@ -102805,8 +102805,8 @@ R	B-CHECK
 紧	I-CHECK
 张	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 均	O
 未	O
 触	O
@@ -103189,19 +103189,19 @@ R	I-CHECK
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 3	O
 7	O
 .	O
 2	O
 ℃	O
-P	B-CHECK
+P	S-CHECK
 9	O
 0	O
 次	O
 /	O
 分	O
-R	B-CHECK
+R	S-CHECK
 2	O
 0	O
 次	O
@@ -103459,7 +103459,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
 3	O
 8	O
@@ -103467,7 +103467,7 @@ T	B-CHECK
 2	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
  	O
 1	O
@@ -103477,7 +103477,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 :	O
  	O
 2	O
@@ -103487,7 +103487,7 @@ R	B-CHECK
 /	O
 分	O
 、	O
-W	B-CHECK
+W	S-CHECK
 :	O
 2	O
 3	O
@@ -103739,7 +103739,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -104084,7 +104084,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
 3	O
 6	O
@@ -104092,7 +104092,7 @@ T	B-CHECK
 5	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
  	O
 1	O
@@ -104102,7 +104102,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 :	O
  	O
 2	O
@@ -104112,7 +104112,7 @@ R	B-CHECK
 /	O
 分	O
 、	O
-W	B-CHECK
+W	S-CHECK
 :	O
 1	O
 9	O
@@ -104358,7 +104358,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -104732,7 +104732,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
 3	O
 6	O
@@ -104740,7 +104740,7 @@ T	B-CHECK
 5	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
  	O
 1	O
@@ -104750,7 +104750,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 :	O
  	O
 2	O
@@ -104760,7 +104760,7 @@ R	B-CHECK
 /	O
 分	O
 、	O
-W	B-CHECK
+W	S-CHECK
 :	O
 1	O
 9	O
@@ -104928,7 +104928,7 @@ g	O
 黑	O
 色	O
 ，	O
-咽	B-BODY
+咽	S-BODY
 稍	O
 充	B-SIGNS
 血	E-SIGNS
@@ -105044,7 +105044,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -105280,7 +105280,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
 3	O
@@ -105289,7 +105289,7 @@ T	B-CHECK
 6	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
 1	O
 2	O
@@ -105298,7 +105298,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 :	O
 2	O
 0	O
@@ -105306,7 +105306,7 @@ R	B-CHECK
 /	O
 分	O
 、	O
-W	B-CHECK
+W	S-CHECK
 :	O
 1	O
 2	O
@@ -105547,7 +105547,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -105844,7 +105844,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
 3	O
@@ -105853,7 +105853,7 @@ T	B-CHECK
 5	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
 1	O
 0	O
@@ -105862,7 +105862,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 :	O
 2	O
 0	O
@@ -105870,7 +105870,7 @@ R	B-CHECK
 /	O
 分	O
 、	O
-W	B-CHECK
+W	S-CHECK
 :	O
 2	O
 1	O
@@ -106102,7 +106102,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -106413,7 +106413,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
 3	O
 6	O
@@ -106421,7 +106421,7 @@ T	B-CHECK
 4	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
 1	O
 1	O
@@ -106430,7 +106430,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 :	O
 2	O
 0	O
@@ -106438,7 +106438,7 @@ R	B-CHECK
 /	O
 分	O
 、	O
-W	B-CHECK
+W	S-CHECK
 :	O
 1	O
 2	O
@@ -106679,7 +106679,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -106937,7 +106937,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
 3	O
 6	O
@@ -106945,7 +106945,7 @@ T	B-CHECK
 9	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
  	O
 1	O
@@ -106955,7 +106955,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 :	O
  	O
 2	O
@@ -106964,7 +106964,7 @@ R	B-CHECK
 /	O
 分	O
 、	O
-W	B-CHECK
+W	S-CHECK
 :	O
 1	O
 5	O
@@ -107214,7 +107214,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -107340,7 +107340,7 @@ g	O
 ，	O
 见	O
 沿	O
-肺	B-BODY
+肺	S-BODY
 纹	O
 理	O
 分	O
@@ -107369,7 +107369,7 @@ g	O
 以	O
 两	O
 下	O
-肺	B-BODY
+肺	S-BODY
 明	O
 显	O
 。	O
@@ -107575,7 +107575,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
 3	O
@@ -107584,7 +107584,7 @@ T	B-CHECK
 5	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
 1	O
 0	O
@@ -107593,7 +107593,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 :	O
 2	O
 0	O
@@ -107601,7 +107601,7 @@ R	B-CHECK
 /	O
 分	O
 、	O
-W	B-CHECK
+W	S-CHECK
 :	O
 1	O
 0	O
@@ -107839,7 +107839,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -108035,7 +108035,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
 3	O
 8	O
@@ -108043,7 +108043,7 @@ T	B-CHECK
 2	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
 1	O
 1	O
@@ -108052,7 +108052,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 :	O
  	O
 2	O
@@ -108061,7 +108061,7 @@ R	B-CHECK
 /	O
 分	O
 、	O
-W	B-CHECK
+W	S-CHECK
 :	O
 1	O
 2	O
@@ -108196,7 +108196,7 @@ g	O
 光	O
 滑	O
 ，	O
-咽	B-BODY
+咽	S-BODY
 部	O
 充	B-SIGNS
 血	E-SIGNS
@@ -108310,7 +108310,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -108445,7 +108445,7 @@ g	O
 示	O
 ：	O
 两	O
-肺	B-BODY
+肺	S-BODY
 纹	O
 理	O
 增	O
@@ -108457,7 +108457,7 @@ g	O
 乱	O
 ，	O
 沿	O
-肺	B-BODY
+肺	S-BODY
 纹	O
 理	O
 间	O
@@ -108486,7 +108486,7 @@ g	O
 以	O
 两	O
 下	O
-肺	B-BODY
+肺	S-BODY
 明	O
 显	O
 ，	O
@@ -108504,7 +108504,7 @@ g	O
 支	O
 气	B-BODY
 管	E-BODY
-肺	B-BODY
+肺	S-BODY
 炎	O
 。	O
 血	B-CHECK
@@ -108725,7 +108725,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
 3	O
 7	O
@@ -108733,7 +108733,7 @@ T	B-CHECK
 4	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
  	O
 1	O
@@ -108743,7 +108743,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 :	O
  	O
 2	O
@@ -108753,7 +108753,7 @@ R	B-CHECK
 /	O
 分	O
 、	O
-W	B-CHECK
+W	S-CHECK
 :	O
 1	O
 1	O
@@ -108888,7 +108888,7 @@ g	O
 光	O
 滑	O
 ，	O
-咽	B-BODY
+咽	S-BODY
 部	O
 充	B-SIGNS
 血	E-SIGNS
@@ -109003,7 +109003,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -109133,7 +109133,7 @@ g	O
 ，	O
 见	O
 沿	O
-肺	B-BODY
+肺	S-BODY
 纹	O
 理	O
 分	O
@@ -109572,19 +109572,19 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 3	O
 7	O
 .	O
 0	O
 ℃	O
-P	B-CHECK
+P	S-CHECK
 9	O
 0	O
 次	O
 /	O
 分	O
-R	B-CHECK
+R	S-CHECK
 2	O
 0	O
 次	O
@@ -109809,13 +109809,13 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
 3	O
 8	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
  	O
 1	O
@@ -109825,7 +109825,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 :	O
  	O
 2	O
@@ -109835,7 +109835,7 @@ R	B-CHECK
 /	O
 分	O
 、	O
-W	B-CHECK
+W	S-CHECK
 :	O
 1	O
 5	O
@@ -110094,7 +110094,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -110226,7 +110226,7 @@ g	O
 ，	O
 见	O
 沿	O
-肺	B-BODY
+肺	S-BODY
 纹	O
 理	O
 分	O
@@ -110255,7 +110255,7 @@ g	O
 以	O
 两	O
 下	O
-肺	B-BODY
+肺	S-BODY
 明	O
 显	O
 ；	O
@@ -110450,7 +110450,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
 3	O
@@ -110459,7 +110459,7 @@ T	B-CHECK
 5	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
 1	O
 0	O
@@ -110468,7 +110468,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 :	O
 2	O
 0	O
@@ -110476,7 +110476,7 @@ R	B-CHECK
 /	O
 分	O
 、	O
-W	B-CHECK
+W	S-CHECK
 :	O
 2	O
 0	O
@@ -110709,7 +110709,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -110983,7 +110983,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
 3	O
 6	O
@@ -110991,7 +110991,7 @@ T	B-CHECK
 8	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
  	O
 1	O
@@ -111001,7 +111001,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 :	O
  	O
 2	O
@@ -111011,7 +111011,7 @@ R	B-CHECK
 /	O
 分	O
 、	O
-W	B-CHECK
+W	S-CHECK
 :	O
 1	O
 9	O
@@ -111146,7 +111146,7 @@ g	O
 光	O
 滑	O
 ，	O
-咽	B-BODY
+咽	S-BODY
 部	O
 充	B-SIGNS
 血	E-SIGNS
@@ -111266,7 +111266,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -111602,7 +111602,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
 3	O
@@ -111611,7 +111611,7 @@ T	B-CHECK
 5	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
 1	O
 0	O
@@ -111620,7 +111620,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 :	O
 2	O
 2	O
@@ -111628,7 +111628,7 @@ R	B-CHECK
 /	O
 分	O
 、	O
-W	B-CHECK
+W	S-CHECK
 :	O
 1	O
 8	O
@@ -111859,7 +111859,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -112177,7 +112177,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 :	O
  	O
  	O
@@ -112188,7 +112188,7 @@ T	B-CHECK
 7	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
 1	O
 0	O
@@ -112197,7 +112197,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 :	O
 2	O
 2	O
@@ -112205,7 +112205,7 @@ R	B-CHECK
 /	O
 分	O
 、	O
-W	B-CHECK
+W	S-CHECK
 :	O
 3	O
 7	O
@@ -112340,7 +112340,7 @@ g	O
 光	O
 滑	O
 ，	O
-咽	B-BODY
+咽	S-BODY
 部	O
 充	B-SIGNS
 血	E-SIGNS
@@ -112440,7 +112440,7 @@ g	O
 擦	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -112561,7 +112561,7 @@ g	O
 示	O
 ：	O
 两	O
-肺	B-BODY
+肺	S-BODY
 纹	O
 理	O
 增	O
@@ -112855,7 +112855,7 @@ g	O
 检	I-CHECK
 查	E-CHECK
 示	O
-脑	B-BODY
+脑	S-BODY
 梗	O
 死	O
 急	O
@@ -112876,7 +112876,7 @@ g	O
 查	B-CHECK
 体	E-CHECK
 、	O
-T	B-CHECK
+T	S-CHECK
 3	O
 6	O
 .	O
@@ -112885,14 +112885,14 @@ T	B-CHECK
  	O
 C	O
 、	O
-P	B-CHECK
+P	S-CHECK
 7	O
 2	O
 次	O
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 2	O
 0	O
 次	O
@@ -112928,8 +112928,8 @@ g	O
 杂	B-CHECK
 音	E-CHECK
 ，	O
-肺	B-BODY
-腹	B-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 明	O
@@ -113180,7 +113180,7 @@ g	O
 查	B-CHECK
 体	E-CHECK
 、	O
-T	B-CHECK
+T	S-CHECK
 3	O
 6	O
 .	O
@@ -113188,14 +113188,14 @@ T	B-CHECK
  	O
 C	O
 、	O
-P	B-CHECK
+P	S-CHECK
 9	O
 2	O
 次	O
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 1	O
 8	O
 次	O
@@ -113231,8 +113231,8 @@ g	O
 杂	B-CHECK
 音	E-CHECK
 ，	O
-肺	B-BODY
-腹	B-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 明	O
@@ -113508,7 +113508,7 @@ T	E-CHECK
 查	B-CHECK
 体	E-CHECK
 、	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -113516,7 +113516,7 @@ T	B-CHECK
 2	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
 7	O
 6	O
@@ -113524,7 +113524,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 1	O
 8	O
@@ -113552,9 +113552,9 @@ g	O
 语	O
 利	O
 ，	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 异	O
@@ -113794,7 +113794,7 @@ T	E-CHECK
 腔	O
 隙	O
 性	O
-脑	B-BODY
+脑	S-BODY
 梗	O
 死	O
 ，	O
@@ -113824,21 +113824,21 @@ T	E-CHECK
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 3	O
 6	O
 .	O
 5	O
 ℃	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 6	O
 2	O
 次	O
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 1	O
 8	O
 次	O
@@ -113873,8 +113873,8 @@ g	O
 杂	B-CHECK
 音	E-CHECK
 ，	O
-肺	B-BODY
-腹	B-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 明	O
@@ -113931,7 +113931,7 @@ g	O
 浅	O
 ，	O
 伸	O
-舌	B-BODY
+舌	S-BODY
 居	O
 中	O
 ，	O
@@ -114023,7 +114023,7 @@ T	E-CHECK
 腔	O
 隙	O
 性	O
-脑	B-BODY
+脑	S-BODY
 梗	O
 死	O
 ，	O
@@ -114237,21 +114237,21 @@ T	E-CHECK
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 3	O
 6	O
 .	O
 8	O
 ℃	O
 ,	O
-R	B-CHECK
+R	S-CHECK
 2	O
 6	O
 次	O
 /	O
 分	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 7	O
 8	O
 次	O
@@ -114345,8 +114345,8 @@ g	O
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -114694,19 +114694,19 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 3	O
 6	O
 .	O
 8	O
 ℃	O
-P	B-CHECK
+P	S-CHECK
 7	O
 6	O
 次	O
 /	O
 分	O
-R	B-CHECK
+R	S-CHECK
 1	O
 8	O
 次	O
@@ -114846,7 +114846,7 @@ g	O
 正	O
 常	O
 。	O
-鼻	B-BODY
+鼻	S-BODY
 无	O
 畸	B-SIGNS
 形	E-SIGNS
@@ -114873,7 +114873,7 @@ g	O
 苍	B-SIGNS
 白	E-SIGNS
 ，	O
-咽	B-BODY
+咽	S-BODY
 无	O
 充	B-SIGNS
 血	E-SIGNS
@@ -114886,7 +114886,7 @@ g	O
 不	O
 大	O
 。	O
-颈	B-BODY
+颈	S-BODY
 左	O
 右	O
 对	O
@@ -114985,8 +114985,8 @@ g	O
 音	E-CHECK
 清	O
 ，	O
-肺	B-BODY
-肝	B-BODY
+肺	S-BODY
+肝	S-BODY
 相	B-CHECK
 对	I-CHECK
 浊	I-CHECK
@@ -115078,7 +115078,7 @@ g	O
 曲	I-SIGNS
 张	E-SIGNS
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
 无	O
@@ -115531,21 +115531,21 @@ g	O
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 3	O
 6	O
 .	O
 0	O
 ℃	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 7	O
 8	O
 次	O
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 1	O
 8	O
 次	O
@@ -115595,7 +115595,7 @@ g	O
 杂	B-CHECK
 音	E-CHECK
 ，	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
 双	B-BODY
@@ -115644,7 +115644,7 @@ g	O
 浅	O
 ，	O
 伸	O
-舌	B-BODY
+舌	S-BODY
 居	O
 中	O
 ，	O
@@ -115803,7 +115803,7 @@ end
 出	O
 、	O
 无	O
-痰	B-BODY
+痰	S-BODY
 中	O
 带	O
 血	O
@@ -115932,21 +115932,21 @@ T	E-CHECK
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 3	O
 8	O
 .	O
 8	O
 ℃	O
 ,	O
-R	B-CHECK
+R	S-CHECK
 2	O
 6	O
 次	O
 /	O
 分	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 1	O
 7	O
 0	O
@@ -116032,8 +116032,8 @@ g	O
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -116279,21 +116279,21 @@ g	O
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 3	O
 6	O
 .	O
 5	O
 ℃	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 6	O
 6	O
 次	O
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 1	O
 8	O
 次	O
@@ -116327,8 +116327,8 @@ g	O
 杂	B-CHECK
 音	E-CHECK
 ，	O
-肺	B-BODY
-腹	B-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 明	O
@@ -116385,7 +116385,7 @@ g	O
 浅	O
 ，	O
 伸	O
-舌	B-BODY
+舌	S-BODY
 居	O
 中	O
 ，	O
@@ -116639,7 +116639,7 @@ T	E-CHECK
 查	B-CHECK
 体	E-CHECK
 、	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -116647,7 +116647,7 @@ T	B-CHECK
 6	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
 7	O
 0	O
@@ -116655,7 +116655,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 1	O
 8	O
@@ -116682,9 +116682,9 @@ g	O
 语	O
 利	O
 ，	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 异	O
@@ -116888,7 +116888,7 @@ end
 查	B-CHECK
 体	E-CHECK
 、	O
-T	B-CHECK
+T	S-CHECK
 3	O
 6	O
 .	O
@@ -116896,7 +116896,7 @@ T	B-CHECK
  	O
 C	O
 、	O
-P	B-CHECK
+P	S-CHECK
 1	O
 0	O
 2	O
@@ -116904,7 +116904,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 1	O
 8	O
 次	O
@@ -116943,7 +116943,7 @@ g	O
 音	E-CHECK
 ，	O
 双	O
-肺	B-BODY
+肺	S-BODY
 呼	B-CHECK
 吸	I-CHECK
 音	E-CHECK
@@ -117067,7 +117067,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -117075,7 +117075,7 @@ T	B-CHECK
 2	O
 C	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
 9	O
 6	O
@@ -117083,7 +117083,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 2	O
 0	O
@@ -117172,8 +117172,8 @@ g	O
 鼓	B-CHECK
 音	E-CHECK
 ，	O
-肺	B-BODY
-肝	B-BODY
+肺	S-BODY
+肝	S-BODY
 相	B-CHECK
 对	I-CHECK
 浊	I-CHECK
@@ -117563,21 +117563,21 @@ g	O
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 3	O
 6	O
 .	O
 0	O
 ℃	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 6	O
 8	O
 次	O
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 1	O
 8	O
 次	O
@@ -117628,7 +117628,7 @@ g	O
 杂	B-CHECK
 音	E-CHECK
 ，	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
 双	B-BODY
@@ -117677,7 +117677,7 @@ g	O
 浅	O
 ，	O
 伸	O
-舌	B-BODY
+舌	S-BODY
 居	O
 中	O
 ，	O
@@ -118027,7 +118027,7 @@ T	O
 查	B-CHECK
 体	E-CHECK
 、	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -118035,7 +118035,7 @@ T	B-CHECK
 5	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 ：	O
 9	O
 6	O
@@ -118043,7 +118043,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 1	O
 8	O
@@ -118070,9 +118070,9 @@ g	O
 语	O
 利	O
 ，	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 异	O
@@ -118323,7 +118323,7 @@ g	O
 查	B-CHECK
 体	E-CHECK
 、	O
-T	B-CHECK
+T	S-CHECK
 3	O
 6	O
 .	O
@@ -118332,14 +118332,14 @@ T	B-CHECK
  	O
 C	O
 、	O
-P	B-CHECK
+P	S-CHECK
 6	O
 4	O
 次	O
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 1	O
 8	O
 次	O
@@ -118642,7 +118642,7 @@ L	I-BODY
 查	B-CHECK
 体	E-CHECK
 、	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -118650,7 +118650,7 @@ T	B-CHECK
 8	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
 8	O
 8	O
@@ -118658,7 +118658,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 2	O
 0	O
@@ -118685,9 +118685,9 @@ g	O
 语	O
 利	O
 ，	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 异	O
@@ -118957,19 +118957,19 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 3	O
 6	O
 .	O
 8	O
 ℃	O
-P	B-CHECK
+P	S-CHECK
 8	O
 4	O
 次	O
 、	O
 分	O
-R	B-CHECK
+R	S-CHECK
 2	O
 0	O
 次	O
@@ -119006,14 +119006,14 @@ g	O
 痛	O
 苦	O
 。	O
-心	B-BODY
-肺	B-BODY
+心	S-BODY
+肺	S-BODY
 未	O
 见	O
 异	O
 常	O
 ，	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -119044,8 +119044,8 @@ g	O
 紧	I-CHECK
 张	E-CHECK
 。	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 肋	B-BODY
 下	E-BODY
 未	O
@@ -119337,21 +119337,21 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 3	O
 6	O
 .	O
 0	O
 ℃	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 8	O
 0	O
 次	O
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 1	O
 8	O
 次	O
@@ -119713,7 +119713,7 @@ L	B-BODY
 查	B-CHECK
 体	E-CHECK
 ，	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -119721,7 +119721,7 @@ T	B-CHECK
 0	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
 7	O
 0	O
@@ -119729,7 +119729,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 1	O
 8	O
@@ -119756,9 +119756,9 @@ g	O
 语	O
 利	O
 ，	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 异	O
@@ -120011,7 +120011,7 @@ L	B-BODY
 查	B-CHECK
 体	E-CHECK
 ，	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -120019,7 +120019,7 @@ T	B-CHECK
 0	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
 9	O
 0	O
@@ -120027,7 +120027,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 1	O
 8	O
@@ -120054,9 +120054,9 @@ g	O
 语	O
 利	O
 ，	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 异	O
@@ -120102,7 +120102,7 @@ S	I-BODY
 双	O
 侧	O
 直	O
-腿	B-BODY
+腿	S-BODY
 抬	O
 高	O
 试	O
@@ -120296,7 +120296,7 @@ R	E-CHECK
 查	B-CHECK
 体	E-CHECK
 ，	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -120304,7 +120304,7 @@ T	B-CHECK
 0	O
 ℃	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
 8	O
 0	O
@@ -120312,7 +120312,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 1	O
 8	O
@@ -120339,9 +120339,9 @@ g	O
 语	O
 利	O
 ，	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 异	O
@@ -120698,7 +120698,7 @@ g	O
 查	B-CHECK
 体	E-CHECK
 ，	O
-T	B-CHECK
+T	S-CHECK
 3	O
 6	O
 .	O
@@ -120707,14 +120707,14 @@ T	B-CHECK
  	O
 C	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 6	O
 2	O
 次	O
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 2	O
 0	O
 次	O
@@ -120753,8 +120753,8 @@ g	O
 杂	B-CHECK
 音	E-CHECK
 ，	O
-肺	B-BODY
-腹	B-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 明	O
@@ -120829,7 +120829,7 @@ T	E-CHECK
 颞	I-BODY
 枕	I-BODY
 部	E-BODY
-脑	B-BODY
+脑	S-BODY
 梗	O
 死	O
 ，	O
@@ -121044,7 +121044,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -121052,7 +121052,7 @@ T	B-CHECK
 0	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
 8	O
 0	O
@@ -121060,7 +121060,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 1	O
 8	O
@@ -121087,9 +121087,9 @@ g	O
 语	O
 利	O
 ，	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 异	O
@@ -121471,7 +121471,7 @@ L	B-BODY
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -121479,7 +121479,7 @@ T	B-CHECK
 8	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
 6	O
 4	O
@@ -121487,7 +121487,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 1	O
 8	O
@@ -121514,9 +121514,9 @@ g	O
 语	O
 利	O
 ，	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 异	O
@@ -121732,7 +121732,7 @@ X	I-CHECK
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -121740,7 +121740,7 @@ T	B-CHECK
 2	O
 ℃	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
 8	O
 4	O
@@ -121748,7 +121748,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 1	O
 8	O
@@ -121775,9 +121775,9 @@ g	O
 语	O
 利	O
 ，	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 异	O
@@ -122206,7 +122206,7 @@ S	B-BODY
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -122214,7 +122214,7 @@ T	B-CHECK
 2	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
 8	O
 0	O
@@ -122222,7 +122222,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 1	O
 8	O
@@ -122249,9 +122249,9 @@ g	O
 语	O
 利	O
 ，	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 异	O
@@ -122594,7 +122594,7 @@ T	E-CHECK
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -122602,7 +122602,7 @@ T	B-CHECK
 5	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
 6	O
 0	O
@@ -122610,7 +122610,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 1	O
 8	O
@@ -122637,9 +122637,9 @@ g	O
 语	O
 利	O
 ，	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 异	O
@@ -122775,7 +122775,7 @@ end
 因	O
 出	O
 现	O
-颈	B-BODY
+颈	S-BODY
 肩	B-BODY
 部	E-BODY
 及	O
@@ -122957,7 +122957,7 @@ R	E-CHECK
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -122965,7 +122965,7 @@ T	B-CHECK
 5	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
 8	O
 0	O
@@ -122973,7 +122973,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 1	O
 8	O
@@ -122999,9 +122999,9 @@ g	O
 语	O
 利	O
 ，	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 异	O
@@ -123343,7 +123343,7 @@ T	E-CHECK
 查	B-CHECK
 体	E-CHECK
 ，	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -123351,7 +123351,7 @@ T	B-CHECK
 2	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
 7	O
 2	O
@@ -123359,7 +123359,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 1	O
 8	O
@@ -123386,9 +123386,9 @@ g	O
 语	O
 利	O
 ，	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 异	O
@@ -123604,7 +123604,7 @@ X	I-CHECK
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -123612,7 +123612,7 @@ T	B-CHECK
 0	O
 ℃	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
 8	O
 0	O
@@ -123620,7 +123620,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 2	O
 0	O
@@ -123647,9 +123647,9 @@ g	O
 语	O
 利	O
 ，	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 异	O
@@ -124057,7 +124057,7 @@ L	B-BODY
 查	B-CHECK
 体	E-CHECK
 ；	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 7	O
@@ -124065,7 +124065,7 @@ T	B-CHECK
 2	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
 7	O
 8	O
@@ -124073,7 +124073,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 1	O
 8	O
@@ -124100,9 +124100,9 @@ g	O
 语	O
 利	O
 ，	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 异	O
@@ -124280,7 +124280,7 @@ end
 头	B-SIGNS
 晕	E-SIGNS
 、	O
-颈	B-BODY
+颈	S-BODY
 肩	B-BODY
 部	E-BODY
 酸	O
@@ -124481,7 +124481,7 @@ C	B-BODY
 查	B-CHECK
 体	E-CHECK
 ；	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -124489,7 +124489,7 @@ T	B-CHECK
 2	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
 6	O
 4	O
@@ -124497,7 +124497,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 1	O
 8	O
@@ -124524,9 +124524,9 @@ g	O
 语	O
 利	O
 ，	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 异	O
@@ -124975,7 +124975,7 @@ T	E-CHECK
 查	B-CHECK
 体	E-CHECK
 ；	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -124983,7 +124983,7 @@ T	B-CHECK
 5	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
 8	O
 0	O
@@ -124991,7 +124991,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 1	O
 8	O
@@ -125018,9 +125018,9 @@ g	O
 语	O
 利	O
 ，	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 异	O
@@ -125176,7 +125176,7 @@ end
 因	O
 出	O
 现	O
-颈	B-BODY
+颈	S-BODY
 肩	B-BODY
 部	E-BODY
 疼	B-SIGNS
@@ -125280,7 +125280,7 @@ T	E-CHECK
 腔	O
 隙	O
 性	O
-脑	B-BODY
+脑	S-BODY
 梗	O
 死	O
 （	O
@@ -125301,7 +125301,7 @@ T	E-CHECK
 查	B-CHECK
 体	E-CHECK
 ；	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -125309,7 +125309,7 @@ T	B-CHECK
 5	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
 6	O
 0	O
@@ -125317,7 +125317,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 1	O
 8	O
@@ -125344,9 +125344,9 @@ g	O
 语	O
 利	O
 ，	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 异	O
@@ -125743,7 +125743,7 @@ S	I-BODY
 查	B-CHECK
 体	E-CHECK
 ；	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -125751,7 +125751,7 @@ T	B-CHECK
 5	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
 8	O
 4	O
@@ -125759,7 +125759,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 1	O
 8	O
@@ -125786,9 +125786,9 @@ g	O
 语	O
 利	O
 ，	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 异	O
@@ -126029,7 +126029,7 @@ T	E-CHECK
 查	B-CHECK
 体	E-CHECK
 ；	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -126037,7 +126037,7 @@ T	B-CHECK
 4	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
 6	O
 0	O
@@ -126045,7 +126045,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 1	O
 8	O
@@ -126072,9 +126072,9 @@ g	O
 语	O
 利	O
 ，	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 异	O
@@ -126368,7 +126368,7 @@ S	I-BODY
 查	B-CHECK
 体	E-CHECK
 ；	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -126376,7 +126376,7 @@ T	B-CHECK
 2	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
 7	O
 2	O
@@ -126384,7 +126384,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 1	O
 8	O
@@ -126411,9 +126411,9 @@ g	O
 语	O
 利	O
 ，	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 异	O
@@ -126675,7 +126675,7 @@ g	O
 查	B-CHECK
 体	E-CHECK
 ；	O
-T	B-CHECK
+T	S-CHECK
 3	O
 6	O
 .	O
@@ -126683,14 +126683,14 @@ T	B-CHECK
  	O
 C	O
 ；	O
-P	B-CHECK
+P	S-CHECK
 7	O
 0	O
 次	O
 /	O
 分	O
 ；	O
-R	B-CHECK
+R	S-CHECK
 1	O
 8	O
 次	O
@@ -126726,8 +126726,8 @@ g	O
 杂	B-CHECK
 音	E-CHECK
 ，	O
-肺	B-BODY
-腹	B-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 明	O
@@ -126796,7 +126796,7 @@ T	E-CHECK
 化	O
 灶	O
 ，	O
-脑	B-BODY
+脑	S-BODY
 梗	O
 死	O
 。	O
@@ -127086,7 +127086,7 @@ T	E-CHECK
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -127094,7 +127094,7 @@ T	B-CHECK
 2	O
 C	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
 7	O
 8	O
@@ -127102,7 +127102,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 2	O
 0	O
@@ -127246,8 +127246,8 @@ g	O
 音	E-CHECK
 清	O
 ，	O
-肺	B-BODY
-肝	B-BODY
+肺	S-BODY
+肝	S-BODY
 相	B-CHECK
 对	I-CHECK
 浊	I-CHECK
@@ -127354,11 +127354,11 @@ g	O
 曲	I-SIGNS
 张	E-SIGNS
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -127671,7 +127671,7 @@ end
 因	O
 出	O
 现	O
-颈	B-BODY
+颈	S-BODY
 肩	B-BODY
 部	E-BODY
 疼	B-SIGNS
@@ -127811,7 +127811,7 @@ C	I-BODY
 查	B-CHECK
 体	E-CHECK
 ；	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -127819,7 +127819,7 @@ T	B-CHECK
 3	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
 7	O
 4	O
@@ -127827,7 +127827,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 1	O
 8	O
@@ -127854,9 +127854,9 @@ g	O
 语	O
 利	O
 ，	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 异	O
@@ -128178,7 +128178,7 @@ T	O
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -128186,7 +128186,7 @@ T	B-CHECK
 6	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
 7	O
 8	O
@@ -128194,7 +128194,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 1	O
 8	O
@@ -128221,9 +128221,9 @@ g	O
 语	O
 利	O
 ，	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 异	O
@@ -128443,7 +128443,7 @@ L	I-BODY
 查	B-CHECK
 体	E-CHECK
 ；	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -128451,7 +128451,7 @@ T	B-CHECK
 2	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
 6	O
 2	O
@@ -128459,7 +128459,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 2	O
 0	O
@@ -128487,9 +128487,9 @@ g	O
 语	O
 利	O
 ，	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 异	O
@@ -128879,7 +128879,7 @@ T	E-CHECK
 查	B-CHECK
 体	E-CHECK
 ；	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -128887,7 +128887,7 @@ T	B-CHECK
 2	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
 1	O
 0	O
@@ -128896,7 +128896,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 1	O
 8	O
@@ -128923,9 +128923,9 @@ g	O
 语	O
 利	O
 ，	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 异	O
@@ -129133,7 +129133,7 @@ S	I-BODY
 查	B-CHECK
 体	E-CHECK
 ；	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -129141,7 +129141,7 @@ T	B-CHECK
 0	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
 9	O
 8	O
@@ -129149,7 +129149,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 1	O
 8	O
@@ -129177,9 +129177,9 @@ g	O
 语	O
 利	O
 ，	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 异	O
@@ -129387,7 +129387,7 @@ S	I-BODY
 查	B-CHECK
 体	E-CHECK
 ；	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -129395,7 +129395,7 @@ T	B-CHECK
 2	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 :	O
 7	O
 6	O
@@ -129403,7 +129403,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 1	O
 8	O
@@ -129430,9 +129430,9 @@ g	O
 语	O
 利	O
 ，	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 异	O
@@ -129602,8 +129602,8 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-心	B-BODY
-肺	B-BODY
+心	S-BODY
+肺	S-BODY
 检	O
 查	O
 未	O
@@ -130060,7 +130060,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -130068,7 +130068,7 @@ T	B-CHECK
 7	O
 C	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
 6	O
 8	O
@@ -130076,7 +130076,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 2	O
 0	O
@@ -130191,8 +130191,8 @@ g	O
 音	E-CHECK
 清	O
 ，	O
-肺	B-BODY
-肝	B-BODY
+肺	S-BODY
+肝	S-BODY
 相	B-CHECK
 对	I-CHECK
 浊	I-CHECK
@@ -130673,7 +130673,7 @@ X	B-CHECK
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 7	O
@@ -130681,7 +130681,7 @@ T	B-CHECK
 1	O
 C	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
 8	O
 4	O
@@ -130689,7 +130689,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 2	O
 0	O
@@ -130821,8 +130821,8 @@ g	O
 音	E-CHECK
 清	O
 ，	O
-肺	B-BODY
-肝	B-BODY
+肺	S-BODY
+肝	S-BODY
 相	B-CHECK
 对	I-CHECK
 浊	I-CHECK
@@ -130922,11 +130922,11 @@ g	O
 曲	I-SIGNS
 张	E-SIGNS
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -131401,7 +131401,7 @@ g	O
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -131409,7 +131409,7 @@ T	B-CHECK
 0	O
 C	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
 6	O
 8	O
@@ -131417,7 +131417,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 2	O
 0	O
@@ -131495,8 +131495,8 @@ g	O
 清	I-CHECK
 音	E-CHECK
 ，	O
-肺	B-BODY
-肝	B-BODY
+肺	S-BODY
+肝	S-BODY
 相	B-CHECK
 对	I-CHECK
 浊	I-CHECK
@@ -131925,7 +131925,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -131933,7 +131933,7 @@ T	B-CHECK
 0	O
 C	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
 7	O
 8	O
@@ -131941,7 +131941,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 2	O
 0	O
@@ -131976,9 +131976,9 @@ g	O
 合	O
 作	O
 。	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 检	O
 查	O
 未	O
@@ -132287,7 +132287,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -132295,7 +132295,7 @@ T	B-CHECK
 6	O
 C	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
 7	O
 2	O
@@ -132303,7 +132303,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 2	O
 0	O
@@ -132338,9 +132338,9 @@ g	O
 合	O
 作	O
 。	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 检	O
 查	O
 未	O
@@ -132655,19 +132655,19 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
 C	O
-P	B-CHECK
+P	S-CHECK
 :	O
 7	O
 2	O
 次	O
 /	O
 分	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 1	O
 8	O
@@ -132752,8 +132752,8 @@ g	O
 清	I-CHECK
 音	E-CHECK
 ，	O
-肺	B-BODY
-肝	B-BODY
+肺	S-BODY
+肝	S-BODY
 相	B-CHECK
 对	I-CHECK
 浊	I-CHECK
@@ -132822,7 +132822,7 @@ g	O
 曲	I-SIGNS
 张	E-SIGNS
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
 移	B-CHECK
@@ -133279,7 +133279,7 @@ g	O
 杂	I-CHECK
 音	E-CHECK
 ，	O
-腹	B-BODY
+腹	S-BODY
 膨	B-SIGNS
 隆	E-SIGNS
 ，	O
@@ -133319,7 +133319,7 @@ m	O
 红	B-SIGNS
 肿	E-SIGNS
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 、	O
 可	O
@@ -133541,7 +133541,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -133549,7 +133549,7 @@ T	B-CHECK
 7	O
 C	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
 6	O
 8	O
@@ -133557,7 +133557,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 1	O
 8	O
@@ -133672,8 +133672,8 @@ g	O
 音	E-CHECK
 清	O
 ，	O
-肺	B-BODY
-肝	B-BODY
+肺	S-BODY
+肝	S-BODY
 相	B-CHECK
 对	I-CHECK
 浊	I-CHECK
@@ -134083,7 +134083,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -134091,7 +134091,7 @@ T	B-CHECK
 8	O
 C	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
 8	O
 4	O
@@ -134099,7 +134099,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 2	O
 0	O
@@ -134214,8 +134214,8 @@ g	O
 音	E-CHECK
 清	O
 ，	O
-肺	B-BODY
-肝	B-BODY
+肺	S-BODY
+肝	S-BODY
 相	B-CHECK
 对	I-CHECK
 浊	I-CHECK
@@ -134439,7 +134439,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -134447,7 +134447,7 @@ T	B-CHECK
 5	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 ：	O
 7	O
 8	O
@@ -134455,7 +134455,7 @@ P	B-CHECK
 /	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 1	O
 8	O
@@ -134512,18 +134512,18 @@ g	O
 合	O
 作	O
 。	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 阴	O
 性	O
 ，	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 肋	B-BODY
 下	E-BODY
 未	O
@@ -134933,7 +134933,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 7	O
@@ -134941,7 +134941,7 @@ T	B-CHECK
 6	O
 C	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
 7	O
 0	O
@@ -134949,7 +134949,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 2	O
 0	O
@@ -134986,9 +134986,9 @@ g	O
 合	O
 作	O
 。	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 检	O
 查	O
 未	O
@@ -135187,9 +135187,9 @@ end
 况	O
 可	O
 ，	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 异	O
@@ -135472,13 +135472,13 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
 C	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
 6	O
 8	O
@@ -135486,7 +135486,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 1	O
 8	O
@@ -135523,9 +135523,9 @@ g	O
 合	O
 作	O
 。	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 检	O
 查	O
 未	O
@@ -135912,21 +135912,21 @@ T	E-CHECK
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 3	O
 6	O
 .	O
 9	O
 ℃	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 7	O
 2	O
 次	O
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 1	O
 9	O
 次	O
@@ -136427,21 +136427,21 @@ T	E-CHECK
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 3	O
 6	O
 .	O
 9	O
 C	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 7	O
 8	O
 次	O
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 1	O
 8	O
 次	O
@@ -136483,9 +136483,9 @@ g	O
 灵	O
 敏	O
 。	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 异	O
@@ -136843,7 +136843,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -136851,7 +136851,7 @@ T	B-CHECK
 5	O
 C	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
 8	O
 0	O
@@ -136859,7 +136859,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 2	O
 0	O
@@ -136990,8 +136990,8 @@ g	O
 音	E-CHECK
 清	O
 ，	O
-肺	B-BODY
-肝	B-BODY
+肺	S-BODY
+肝	S-BODY
 相	B-CHECK
 对	I-CHECK
 浊	I-CHECK
@@ -138034,21 +138034,21 @@ T	E-CHECK
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
 .	O
 1	O
 C	O
-P	B-CHECK
+P	S-CHECK
 :	O
 8	O
 2	O
 次	O
 /	O
 分	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 2	O
 0	O
@@ -138179,8 +138179,8 @@ g	O
 音	E-CHECK
 清	O
 ，	O
-肺	B-BODY
-肝	B-BODY
+肺	S-BODY
+肝	S-BODY
 相	B-CHECK
 对	I-CHECK
 浊	I-CHECK
@@ -138280,11 +138280,11 @@ g	O
 曲	I-SIGNS
 张	E-SIGNS
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -138937,13 +138937,13 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
 C	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
 9	O
 2	O
@@ -138951,7 +138951,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 2	O
 0	O
@@ -139097,7 +139097,7 @@ g	O
 正	O
 常	O
 。	O
-鼻	B-BODY
+鼻	S-BODY
 无	O
 畸	B-SIGNS
 形	E-SIGNS
@@ -139124,7 +139124,7 @@ g	O
 苍	B-SIGNS
 白	E-SIGNS
 ，	O
-咽	B-BODY
+咽	S-BODY
 无	O
 充	B-SIGNS
 血	E-SIGNS
@@ -139137,7 +139137,7 @@ g	O
 不	O
 大	O
 。	O
-颈	B-BODY
+颈	S-BODY
 左	O
 右	O
 对	O
@@ -139347,11 +139347,11 @@ g	O
 溃	O
 破	O
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -139696,7 +139696,7 @@ T	E-CHECK
 声	E-CHECK
 示	O
 ：	O
-肝	B-BODY
+肝	S-BODY
 大	O
 不	O
 均	O
@@ -139906,7 +139906,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -139922,7 +139922,7 @@ P	E-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 2	O
 0	O
@@ -140038,8 +140038,8 @@ g	O
 音	E-CHECK
 清	O
 ，	O
-肺	B-BODY
-肝	B-BODY
+肺	S-BODY
+肝	S-BODY
 相	B-CHECK
 对	I-CHECK
 浊	I-CHECK
@@ -140147,11 +140147,11 @@ g	O
 水	B-SIGNS
 肿	E-SIGNS
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -140631,7 +140631,7 @@ T	E-CHECK
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 7	O
@@ -140645,7 +140645,7 @@ P	E-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 2	O
 0	O
@@ -140765,8 +140765,8 @@ g	O
 音	E-CHECK
 清	O
 ，	O
-肺	B-BODY
-肝	B-BODY
+肺	S-BODY
+肝	S-BODY
 相	B-CHECK
 对	I-CHECK
 浊	I-CHECK
@@ -140874,11 +140874,11 @@ g	O
 水	B-SIGNS
 肿	E-SIGNS
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -141379,7 +141379,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -141387,7 +141387,7 @@ T	B-CHECK
 2	O
 C	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
 6	O
 4	O
@@ -141395,7 +141395,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 2	O
 0	O
@@ -141529,11 +141529,11 @@ g	O
 曲	I-SIGNS
 张	E-SIGNS
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -141935,7 +141935,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -141943,7 +141943,7 @@ T	B-CHECK
 9	O
 C	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
 9	O
 6	O
@@ -141951,7 +141951,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 2	O
 0	O
@@ -142086,11 +142086,11 @@ g	O
 曲	I-SIGNS
 张	E-SIGNS
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -142534,18 +142534,18 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 3	O
 6	O
 .	O
 8	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 8	O
 0	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 1	O
 8	O
 分	O
@@ -143062,21 +143062,21 @@ X	I-CHECK
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 3	O
 7	O
 .	O
 8	O
 C	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 9	O
 4	O
 次	O
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 2	O
 0	O
 次	O
@@ -143374,21 +143374,21 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 3	O
 6	O
 .	O
 2	O
 C	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 7	O
 2	O
 次	O
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 1	O
 8	O
 次	O
@@ -143430,9 +143430,9 @@ g	O
 灵	O
 敏	O
 。	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 异	O
@@ -144141,7 +144141,7 @@ g	O
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -144149,7 +144149,7 @@ T	B-CHECK
 2	O
 C	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
 6	O
 4	O
@@ -144157,7 +144157,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 1	O
 8	O
@@ -144272,8 +144272,8 @@ g	O
 音	E-CHECK
 清	O
 ，	O
-肺	B-BODY
-肝	B-BODY
+肺	S-BODY
+肝	S-BODY
 相	B-CHECK
 对	I-CHECK
 浊	I-CHECK
@@ -144380,11 +144380,11 @@ g	O
 水	B-SIGNS
 肿	E-SIGNS
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -144865,7 +144865,7 @@ g	O
 水	B-SIGNS
 肿	E-SIGNS
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
 肝	O
@@ -145285,19 +145285,19 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 3	O
 6	O
 .	O
 0	O
 ℃	O
-P	B-CHECK
+P	S-CHECK
 8	O
 0	O
 次	O
 /	O
 分	O
-R	B-CHECK
+R	S-CHECK
 1	O
 8	O
 次	O
@@ -145410,7 +145410,7 @@ g	O
 正	O
 常	O
 。	O
-鼻	B-BODY
+鼻	S-BODY
 无	O
 畸	B-SIGNS
 形	E-SIGNS
@@ -145437,7 +145437,7 @@ g	O
 苍	B-SIGNS
 白	E-SIGNS
 ，	O
-咽	B-BODY
+咽	S-BODY
 无	O
 充	B-SIGNS
 血	E-SIGNS
@@ -145450,7 +145450,7 @@ g	O
 不	O
 大	O
 。	O
-颈	B-BODY
+颈	S-BODY
 左	O
 右	O
 对	O
@@ -145549,8 +145549,8 @@ g	O
 音	E-CHECK
 清	O
 ，	O
-肺	B-BODY
-肝	B-BODY
+肺	S-BODY
+肝	S-BODY
 相	B-CHECK
 对	I-CHECK
 浊	I-CHECK
@@ -145650,7 +145650,7 @@ g	O
 曲	I-SIGNS
 张	E-SIGNS
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
 无	O
@@ -146106,7 +146106,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -146114,7 +146114,7 @@ T	B-CHECK
 9	O
 C	O
 ,	O
-P	B-CHECK
+P	S-CHECK
 :	O
 8	O
 0	O
@@ -146122,7 +146122,7 @@ P	B-CHECK
 /	O
 分	O
 ,	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 2	O
 0	O
@@ -146238,8 +146238,8 @@ g	O
 音	E-CHECK
 清	O
 ，	O
-肺	B-BODY
-肝	B-BODY
+肺	S-BODY
+肝	S-BODY
 相	B-CHECK
 对	I-CHECK
 浊	I-CHECK
@@ -146326,8 +146326,8 @@ g	O
 动	O
 波	O
 。	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 肋	B-BODY
 下	E-BODY
 未	O
@@ -146768,7 +146768,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 5	O
@@ -146776,7 +146776,7 @@ T	B-CHECK
 5	O
 C	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
 7	O
 8	O
@@ -146784,7 +146784,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 2	O
 0	O
@@ -146863,8 +146863,8 @@ g	O
 清	I-CHECK
 音	E-CHECK
 ，	O
-肺	B-BODY
-肝	B-BODY
+肺	S-BODY
+肝	S-BODY
 相	B-CHECK
 对	I-CHECK
 浊	I-CHECK
@@ -146932,7 +146932,7 @@ g	O
 曲	I-SIGNS
 张	E-SIGNS
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
 移	B-CHECK
@@ -147265,7 +147265,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -147280,7 +147280,7 @@ P	O
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 1	O
 9	O
@@ -147360,8 +147360,8 @@ g	O
 清	I-CHECK
 音	E-CHECK
 ，	O
-肺	B-BODY
-肝	B-BODY
+肺	S-BODY
+肝	S-BODY
 相	B-CHECK
 对	I-CHECK
 浊	I-CHECK
@@ -147429,7 +147429,7 @@ g	O
 曲	I-SIGNS
 张	E-SIGNS
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
 移	B-CHECK
@@ -148292,9 +148292,9 @@ end
 抵	O
 抗	O
 ，	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 异	O
@@ -148726,21 +148726,21 @@ X	I-CHECK
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 3	O
 6	O
 .	O
 0	O
 C	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 8	O
 2	O
 次	O
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 1	O
 8	O
 次	O
@@ -149072,20 +149072,20 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 3	O
 6	O
 .	O
 0	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 7	O
 6	O
 次	O
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 1	O
 8	O
 次	O
@@ -149573,21 +149573,21 @@ S	I-BODY
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 3	O
 6	O
 .	O
 1	O
 ℃	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 8	O
 0	O
 次	O
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 1	O
 8	O
 次	O
@@ -149703,7 +149703,7 @@ g	O
 动	O
 可	O
 ，	O
-背	B-BODY
+背	S-BODY
 伸	O
 疼	B-SIGNS
 痛	E-SIGNS
@@ -150192,21 +150192,21 @@ T	E-CHECK
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
 .	O
 4	O
 C	O
-P	B-CHECK
+P	S-CHECK
 :	O
 8	O
 0	O
 次	O
 /	O
 分	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 2	O
 0	O
@@ -150284,8 +150284,8 @@ g	O
 清	I-CHECK
 音	E-CHECK
 ，	O
-肺	B-BODY
-肝	B-BODY
+肺	S-BODY
+肝	S-BODY
 相	B-CHECK
 对	I-CHECK
 浊	I-CHECK
@@ -150756,7 +150756,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -150764,7 +150764,7 @@ T	B-CHECK
 0	O
 C	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
 8	O
 2	O
@@ -150772,7 +150772,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 1	O
 8	O
@@ -150889,8 +150889,8 @@ g	O
 音	E-CHECK
 清	O
 ，	O
-肺	B-BODY
-肝	B-BODY
+肺	S-BODY
+肝	S-BODY
 相	B-CHECK
 对	I-CHECK
 浊	I-CHECK
@@ -150925,7 +150925,7 @@ g	O
 啰	I-CHECK
 音	E-CHECK
 。	O
-心	B-BODY
+心	S-BODY
 前	O
 区	O
 无	O
@@ -150997,11 +150997,11 @@ g	O
 水	B-SIGNS
 肿	E-SIGNS
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -151519,7 +151519,7 @@ g	O
 杂	I-CHECK
 音	E-CHECK
 ，	O
-腹	B-BODY
+腹	S-BODY
 膨	B-SIGNS
 隆	E-SIGNS
 ，	O
@@ -151559,7 +151559,7 @@ m	O
 红	B-SIGNS
 肿	E-SIGNS
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 、	O
 可	O
@@ -151698,7 +151698,7 @@ end
 他	O
 人	O
 用	O
-拳	B-BODY
+拳	S-BODY
 打	O
 伤	O
 左	B-BODY
@@ -151874,14 +151874,14 @@ X	I-CHECK
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 3	O
 6	O
 .	O
 0	O
 C	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 9	O
 0	O
 次	O
@@ -152048,7 +152048,7 @@ m	O
 压	B-CHECK
 痛	E-CHECK
 ，	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
 全	O
@@ -152223,7 +152223,7 @@ end
 .	O
 查	O
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -152231,7 +152231,7 @@ T	B-CHECK
 8	O
 C	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
 8	O
 4	O
@@ -152239,7 +152239,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 2	O
 0	O
@@ -152365,8 +152365,8 @@ g	O
 音	E-CHECK
 清	O
 ，	O
-肺	B-BODY
-肝	B-BODY
+肺	S-BODY
+肝	S-BODY
 相	B-CHECK
 对	I-CHECK
 浊	I-CHECK
@@ -152466,11 +152466,11 @@ g	O
 曲	I-SIGNS
 张	E-SIGNS
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -152628,7 +152628,7 @@ T	E-CHECK
 腔	O
 隙	O
 性	O
-脑	B-BODY
+脑	S-BODY
 梗	O
 死	O
 ，	O
@@ -152653,7 +152653,7 @@ T	E-CHECK
 囊	E-BODY
 肿	O
 ，	O
-肝	B-BODY
+肝	S-BODY
 内	O
 钙	O
 化	O
@@ -152892,18 +152892,18 @@ T	E-CHECK
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 3	O
 7	O
 .	O
 0	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 8	O
 4	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 1	O
 8	O
 分	O
@@ -153495,18 +153495,18 @@ S	O
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 3	O
 6	O
 .	O
 9	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 9	O
 3	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 1	O
 8	O
 分	O
@@ -154305,7 +154305,7 @@ l	O
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -154313,7 +154313,7 @@ T	B-CHECK
 3	O
 C	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
 7	O
 6	O
@@ -154321,7 +154321,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 1	O
 8	O
@@ -154399,8 +154399,8 @@ g	O
 清	I-CHECK
 音	E-CHECK
 ，	O
-肺	B-BODY
-肝	B-BODY
+肺	S-BODY
+肝	S-BODY
 相	B-CHECK
 对	I-CHECK
 浊	I-CHECK
@@ -154463,7 +154463,7 @@ g	O
 动	O
 波	O
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
 右	B-BODY
@@ -154937,7 +154937,7 @@ L	O
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 8	O
@@ -154945,7 +154945,7 @@ T	B-CHECK
 1	O
 C	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
 8	O
 0	O
@@ -154953,7 +154953,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 2	O
 0	O
@@ -155495,7 +155495,7 @@ L	O
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -155503,7 +155503,7 @@ T	B-CHECK
 6	O
 C	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
 8	O
 0	O
@@ -155511,7 +155511,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 2	O
 0	O
@@ -155590,8 +155590,8 @@ g	O
 清	I-CHECK
 音	E-CHECK
 ，	O
-肺	B-BODY
-肝	B-BODY
+肺	S-BODY
+肝	S-BODY
 相	B-CHECK
 对	I-CHECK
 浊	I-CHECK
@@ -155654,7 +155654,7 @@ g	O
 动	O
 波	O
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
 右	B-BODY
@@ -155942,7 +155942,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -155950,7 +155950,7 @@ T	B-CHECK
 5	O
 C	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
 8	O
 0	O
@@ -155958,7 +155958,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 1	O
 8	O
@@ -156073,8 +156073,8 @@ g	O
 音	E-CHECK
 清	O
 ，	O
-肺	B-BODY
-肝	B-BODY
+肺	S-BODY
+肝	S-BODY
 相	B-CHECK
 对	I-CHECK
 浊	I-CHECK
@@ -156407,7 +156407,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 7	O
@@ -156415,7 +156415,7 @@ T	B-CHECK
 5	O
 ℃	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 ：	O
 8	O
 5	O
@@ -156423,7 +156423,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 2	O
 0	O
@@ -156476,8 +156476,8 @@ g	O
 清	I-CHECK
 音	E-CHECK
 ，	O
-肺	B-BODY
-肝	B-BODY
+肺	S-BODY
+肝	S-BODY
 相	B-CHECK
 对	I-CHECK
 浊	I-CHECK
@@ -157057,7 +157057,7 @@ T	E-CHECK
 ：	O
 1	O
 .	O
-肺	B-BODY
+肺	S-BODY
 气	O
 肿	O
 2	O
@@ -157163,7 +157163,7 @@ T	E-CHECK
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 7	O
@@ -157171,7 +157171,7 @@ T	B-CHECK
 5	O
 C	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
 8	O
 4	O
@@ -157179,7 +157179,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 2	O
 0	O
@@ -157786,7 +157786,7 @@ g	O
 杂	I-CHECK
 音	E-CHECK
 ，	O
-腹	B-BODY
+腹	S-BODY
 膨	B-SIGNS
 隆	E-SIGNS
 ，	O
@@ -157826,7 +157826,7 @@ m	O
 红	B-SIGNS
 肿	E-SIGNS
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 、	O
 可	O
@@ -158114,7 +158114,7 @@ g	O
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 7	O
@@ -158122,7 +158122,7 @@ T	B-CHECK
 3	O
 C	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
 6	O
 2	O
@@ -158130,7 +158130,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 2	O
 0	O
@@ -158524,21 +158524,21 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 7	O
 .	O
 2	O
 C	O
-P	B-CHECK
+P	S-CHECK
 :	O
 9	O
 2	O
 次	O
 /	O
 分	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 2	O
 0	O
@@ -158773,21 +158773,21 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
 .	O
 6	O
 C	O
-P	B-CHECK
+P	S-CHECK
 :	O
 8	O
 8	O
 次	O
 /	O
 分	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 1	O
 8	O
@@ -158818,7 +158818,7 @@ g	O
 病	O
 容	O
 ，	O
-面	B-BODY
+面	S-BODY
 色	O
 苍	B-SIGNS
 白	E-SIGNS
@@ -158900,7 +158900,7 @@ g	O
 苍	B-SIGNS
 白	E-SIGNS
 ，	O
-咽	B-BODY
+咽	S-BODY
 无	O
 充	B-SIGNS
 血	E-SIGNS
@@ -158912,7 +158912,7 @@ g	O
 肿	B-SIGNS
 大	E-SIGNS
 。	O
-颈	B-BODY
+颈	S-BODY
 软	O
 ，	O
 无	O
@@ -158981,8 +158981,8 @@ g	O
 音	E-CHECK
 清	O
 ，	O
-肺	B-BODY
-肝	B-BODY
+肺	S-BODY
+肝	S-BODY
 相	B-CHECK
 对	I-CHECK
 浊	I-CHECK
@@ -159082,11 +159082,11 @@ g	O
 曲	I-SIGNS
 张	E-SIGNS
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -159605,21 +159605,21 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
 .	O
 0	O
 C	O
-P	B-CHECK
+P	S-CHECK
 :	O
 8	O
 8	O
 次	O
 /	O
 分	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 2	O
 0	O
@@ -159733,8 +159733,8 @@ g	O
 音	E-CHECK
 清	O
 ，	O
-肺	B-BODY
-肝	B-BODY
+肺	S-BODY
+肝	S-BODY
 相	B-CHECK
 对	I-CHECK
 浊	I-CHECK
@@ -159834,11 +159834,11 @@ g	O
 曲	I-SIGNS
 张	E-SIGNS
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -160233,7 +160233,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -160241,7 +160241,7 @@ T	B-CHECK
 5	O
 C	O
 ,	O
-P	B-CHECK
+P	S-CHECK
 :	O
 7	O
 6	O
@@ -160249,7 +160249,7 @@ P	B-CHECK
 /	O
 分	O
 ,	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 2	O
 0	O
@@ -160327,8 +160327,8 @@ g	O
 清	I-CHECK
 音	E-CHECK
 ，	O
-肺	B-BODY
-肝	B-BODY
+肺	S-BODY
+肝	S-BODY
 相	B-CHECK
 对	I-CHECK
 浊	I-CHECK
@@ -160721,7 +160721,7 @@ g	O
 合	O
 作	O
 。	O
-头	B-BODY
+头	S-BODY
 无	O
 畸	B-SIGNS
 形	E-SIGNS
@@ -161007,7 +161007,7 @@ T	E-CHECK
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 7	O
@@ -161015,7 +161015,7 @@ T	B-CHECK
 5	O
 C	O
 ,	O
-P	B-CHECK
+P	S-CHECK
 :	O
 8	O
 4	O
@@ -161023,7 +161023,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 2	O
 0	O
@@ -161275,8 +161275,8 @@ g	O
 音	E-CHECK
 清	O
 ，	O
-肺	B-BODY
-肝	B-BODY
+肺	S-BODY
+肝	S-BODY
 相	B-CHECK
 对	I-CHECK
 浊	I-CHECK
@@ -161440,7 +161440,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -161448,7 +161448,7 @@ T	B-CHECK
 7	O
 C	O
 ,	O
-P	B-CHECK
+P	S-CHECK
 :	O
 8	O
 0	O
@@ -161456,7 +161456,7 @@ P	B-CHECK
 /	O
 分	O
 ,	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 2	O
 0	O
@@ -161605,8 +161605,8 @@ g	O
 音	E-CHECK
 清	O
 ，	O
-肺	B-BODY
-肝	B-BODY
+肺	S-BODY
+肝	S-BODY
 相	B-CHECK
 对	I-CHECK
 浊	I-CHECK
@@ -161706,11 +161706,11 @@ g	O
 曲	I-SIGNS
 张	E-SIGNS
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -161836,13 +161836,13 @@ T	E-CHECK
 改	O
 变	O
 ，	O
-肝	B-BODY
+肝	S-BODY
 、	O
-胆	B-BODY
+胆	S-BODY
 、	O
-脾	B-BODY
+脾	S-BODY
 、	O
-胰	B-BODY
+胰	S-BODY
 未	O
 见	O
 异	O
@@ -161992,10 +161992,10 @@ T	E-CHECK
 C	I-CHECK
 T	E-CHECK
 ：	O
-肝	B-BODY
-胆	B-BODY
-胰	B-BODY
-脾	B-BODY
+肝	S-BODY
+胆	S-BODY
+胰	S-BODY
+脾	S-BODY
 未	O
 见	O
 异	O
@@ -162050,7 +162050,7 @@ T	E-CHECK
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -162058,7 +162058,7 @@ T	B-CHECK
 6	O
 C	O
 ,	O
-P	B-CHECK
+P	S-CHECK
 :	O
 7	O
 8	O
@@ -162066,7 +162066,7 @@ P	B-CHECK
 /	O
 分	O
 ,	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 1	O
 9	O
@@ -162201,8 +162201,8 @@ g	O
 音	E-CHECK
 清	O
 ，	O
-肺	B-BODY
-肝	B-BODY
+肺	S-BODY
+肝	S-BODY
 相	B-CHECK
 对	I-CHECK
 浊	I-CHECK
@@ -162310,11 +162310,11 @@ g	O
 水	B-SIGNS
 肿	E-SIGNS
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -162554,10 +162554,10 @@ T	E-CHECK
 C	I-CHECK
 T	E-CHECK
 ：	O
-肝	B-BODY
-胆	B-BODY
-胰	B-BODY
-脾	B-BODY
+肝	S-BODY
+胆	S-BODY
+胰	S-BODY
+脾	S-BODY
 未	O
 见	O
 异	O
@@ -162711,10 +162711,10 @@ T	E-CHECK
 异	O
 常	O
 ，	O
-肝	B-BODY
-胆	B-BODY
-胰	B-BODY
-脾	B-BODY
+肝	S-BODY
+胆	S-BODY
+胰	S-BODY
+脾	S-BODY
 未	O
 见	O
 异	O
@@ -162770,7 +162770,7 @@ R	E-CHECK
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 7	O
@@ -162778,7 +162778,7 @@ T	B-CHECK
 1	O
 C	O
 ,	O
-P	B-CHECK
+P	S-CHECK
 :	O
 8	O
 4	O
@@ -162786,7 +162786,7 @@ P	B-CHECK
 /	O
 分	O
 ,	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 1	O
 9	O
@@ -162921,8 +162921,8 @@ g	O
 音	E-CHECK
 清	O
 ，	O
-肺	B-BODY
-肝	B-BODY
+肺	S-BODY
+肝	S-BODY
 相	B-CHECK
 对	I-CHECK
 浊	I-CHECK
@@ -163029,11 +163029,11 @@ g	O
 水	B-SIGNS
 肿	E-SIGNS
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -163249,10 +163249,10 @@ T	E-CHECK
 异	O
 常	O
 ，	O
-肝	B-BODY
-胆	B-BODY
-胰	B-BODY
-脾	B-BODY
+肝	S-BODY
+胆	S-BODY
+胰	S-BODY
+脾	S-BODY
 未	O
 见	O
 异	O
@@ -163482,7 +163482,7 @@ R	I-CHECK
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -163490,7 +163490,7 @@ T	B-CHECK
 0	O
 ℃	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 ：	O
 6	O
 8	O
@@ -163498,7 +163498,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 ：	O
  	O
 1	O
@@ -163623,7 +163623,7 @@ m	O
 啰	O
 音	O
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
 无	O
@@ -163841,7 +163841,7 @@ T	E-CHECK
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -163849,7 +163849,7 @@ T	B-CHECK
 9	O
 C	O
 ,	O
-P	B-CHECK
+P	S-CHECK
 :	O
 6	O
 5	O
@@ -163857,7 +163857,7 @@ P	B-CHECK
 /	O
 分	O
 ,	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 2	O
 0	O
@@ -163991,8 +163991,8 @@ g	O
 音	E-CHECK
 清	O
 ，	O
-肺	B-BODY
-肝	B-BODY
+肺	S-BODY
+肝	S-BODY
 相	B-CHECK
 对	I-CHECK
 浊	I-CHECK
@@ -164099,11 +164099,11 @@ g	O
 水	B-SIGNS
 肿	E-SIGNS
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -164554,7 +164554,7 @@ B	E-CHECK
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -164562,7 +164562,7 @@ T	B-CHECK
 6	O
 C	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
 6	O
 0	O
@@ -164570,7 +164570,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 2	O
 0	O
@@ -164713,8 +164713,8 @@ g	O
 音	E-CHECK
 清	O
 ，	O
-肺	B-BODY
-肝	B-BODY
+肺	S-BODY
+肝	S-BODY
 相	B-CHECK
 对	I-CHECK
 浊	I-CHECK
@@ -164814,11 +164814,11 @@ g	O
 曲	I-SIGNS
 张	E-SIGNS
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -165326,7 +165326,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -165334,7 +165334,7 @@ T	B-CHECK
 9	O
 C	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
 6	O
 4	O
@@ -165342,7 +165342,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 2	O
 0	O
@@ -165378,9 +165378,9 @@ g	O
 合	O
 作	O
 。	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 检	O
 查	O
 未	O
@@ -165751,7 +165751,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -165759,7 +165759,7 @@ T	B-CHECK
 3	O
 C	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
 9	O
 6	O
@@ -165767,7 +165767,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 1	O
 8	O
@@ -165845,8 +165845,8 @@ g	O
 清	I-CHECK
 音	E-CHECK
 ，	O
-肺	B-BODY
-肝	B-BODY
+肺	S-BODY
+肝	S-BODY
 相	B-CHECK
 对	I-CHECK
 浊	I-CHECK
@@ -166198,7 +166198,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -166206,7 +166206,7 @@ T	B-CHECK
 2	O
 C	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
 6	O
 0	O
@@ -166214,7 +166214,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 1	O
 9	O
@@ -166329,8 +166329,8 @@ g	O
 音	E-CHECK
 清	O
 ，	O
-肺	B-BODY
-肝	B-BODY
+肺	S-BODY
+肝	S-BODY
 相	B-CHECK
 对	I-CHECK
 浊	I-CHECK
@@ -166430,11 +166430,11 @@ g	O
 曲	I-SIGNS
 张	E-SIGNS
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -166750,7 +166750,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -166758,7 +166758,7 @@ T	B-CHECK
 3	O
 C	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
 6	O
 0	O
@@ -166766,7 +166766,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 1	O
 8	O
@@ -166883,8 +166883,8 @@ g	O
 音	E-CHECK
 清	O
 ，	O
-肺	B-BODY
-肝	B-BODY
+肺	S-BODY
+肝	S-BODY
 相	B-CHECK
 对	I-CHECK
 浊	I-CHECK
@@ -167403,7 +167403,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 7	O
@@ -167411,7 +167411,7 @@ T	B-CHECK
 9	O
 C	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
 8	O
 0	O
@@ -167419,7 +167419,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 1	O
 8	O
@@ -167535,8 +167535,8 @@ g	O
 音	E-CHECK
 清	O
 ，	O
-肺	B-BODY
-肝	B-BODY
+肺	S-BODY
+肝	S-BODY
 相	B-CHECK
 对	I-CHECK
 浊	I-CHECK
@@ -167636,7 +167636,7 @@ g	O
 曲	I-SIGNS
 张	E-SIGNS
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
 无	O
@@ -167657,9 +167657,9 @@ g	O
 震	B-SIGNS
 颤	E-SIGNS
 ，	O
-肝	B-BODY
-脾	B-BODY
-胃	B-BODY
+肝	S-BODY
+脾	S-BODY
+胃	S-BODY
 未	O
 触	O
 及	O
@@ -168103,7 +168103,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -168111,7 +168111,7 @@ T	B-CHECK
 6	O
 C	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
 8	O
 0	O
@@ -168119,7 +168119,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 2	O
 0	O
@@ -168175,8 +168175,8 @@ g	O
 抵	O
 抗	O
 。	O
-心	B-BODY
-肺	B-BODY
+心	S-BODY
+肺	S-BODY
 检	O
 查	O
 未	O
@@ -168208,11 +168208,11 @@ g	O
 曲	I-SIGNS
 张	E-SIGNS
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -168660,7 +168660,7 @@ R	E-CHECK
 查	B-CHECK
 体	E-CHECK
 :	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -168668,7 +168668,7 @@ T	B-CHECK
 2	O
 ℃	O
 、	O
-P	B-CHECK
+P	S-CHECK
 ：	O
 7	O
 2	O
@@ -168676,7 +168676,7 @@ P	B-CHECK
 ／	O
 分	O
 、	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 1	O
 8	O
@@ -168707,9 +168707,9 @@ g	O
 病	O
 室	O
 ，	O
-心	B-BODY
-肺	B-BODY
-腹	B-BODY
+心	S-BODY
+肺	S-BODY
+腹	S-BODY
 未	O
 见	O
 异	O
@@ -169030,14 +169030,14 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 3	O
 6	O
 .	O
 3	O
 ℃	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 1	O
 0	O
 6	O
@@ -169045,7 +169045,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 2	O
 0	O
 次	O
@@ -169161,7 +169161,7 @@ g	O
 杂	I-CHECK
 音	E-CHECK
 。	O
-腹	B-BODY
+腹	S-BODY
 膨	B-SIGNS
 隆	E-SIGNS
 ，	O
@@ -169171,8 +169171,8 @@ g	O
 压	B-CHECK
 痛	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -169328,13 +169328,13 @@ C	I-CHECK
 T	E-CHECK
 示	O
 ：	O
-肝	B-BODY
+肝	S-BODY
 、	O
-胆	B-BODY
+胆	S-BODY
 、	O
-脾	B-BODY
+脾	S-BODY
 、	O
-胰	B-BODY
+胰	S-BODY
 未	O
 见	O
 明	O
@@ -169625,7 +169625,7 @@ g	O
 早	O
 搏	O
 ，	O
-腹	B-BODY
+腹	S-BODY
 膨	B-SIGNS
 隆	E-SIGNS
 ，	O
@@ -169957,7 +169957,7 @@ g	O
 查	B-CHECK
 体	E-CHECK
 ：	O
-头	B-BODY
+头	S-BODY
 无	O
 畸	B-SIGNS
 形	E-SIGNS
@@ -170025,7 +170025,7 @@ g	O
 杂	I-CHECK
 音	E-CHECK
 ，	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -170055,9 +170055,9 @@ g	O
 包	B-SIGNS
 块	E-SIGNS
 ，	O
-肝	B-BODY
+肝	S-BODY
 、	O
-脾	B-BODY
+脾	S-BODY
 肋	B-BODY
 下	E-BODY
 未	O
@@ -170488,7 +170488,7 @@ m	O
 杂	I-CHECK
 音	E-CHECK
 ，	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -170809,7 +170809,7 @@ T	E-CHECK
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -170817,7 +170817,7 @@ T	B-CHECK
 7	O
 ℃	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 ：	O
 8	O
 8	O
@@ -170825,7 +170825,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 2	O
 0	O
@@ -170903,8 +170903,8 @@ g	O
 清	I-CHECK
 音	E-CHECK
 ，	O
-肺	B-BODY
-肝	B-BODY
+肺	S-BODY
+肝	S-BODY
 相	B-CHECK
 对	I-CHECK
 浊	I-CHECK
@@ -170946,7 +170946,7 @@ g	O
 异	O
 常	O
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -170959,7 +170959,7 @@ g	O
 动	O
 波	O
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
 无	O
@@ -170970,8 +170970,8 @@ g	O
 紧	I-CHECK
 张	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 均	O
 未	O
 触	O
@@ -171183,13 +171183,13 @@ end
 彩	I-CHECK
 超	E-CHECK
 ：	O
-肝	B-BODY
+肝	S-BODY
 、	O
-胆	B-BODY
+胆	S-BODY
 、	O
-脾	B-BODY
+脾	S-BODY
 、	O
-胰	B-BODY
+胰	S-BODY
 未	O
 见	O
 异	O
@@ -171229,7 +171229,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -171237,7 +171237,7 @@ T	B-CHECK
 5	O
 C	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
 1	O
 0	O
@@ -171246,7 +171246,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 2	O
 0	O
@@ -171300,7 +171300,7 @@ g	O
 灵	O
 敏	O
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -171320,7 +171320,7 @@ g	O
 动	O
 波	O
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
 上	B-BODY
@@ -171338,8 +171338,8 @@ g	O
 紧	I-CHECK
 张	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 均	O
 未	O
 触	O
@@ -171380,13 +171380,13 @@ g	O
 彩	I-CHECK
 超	E-CHECK
 ：	O
-肝	B-BODY
+肝	S-BODY
 、	O
-胆	B-BODY
+胆	S-BODY
 、	O
-脾	B-BODY
+脾	S-BODY
 、	O
-胰	B-BODY
+胰	S-BODY
 未	O
 见	O
 异	O
@@ -171463,7 +171463,7 @@ end
 头	B-SIGNS
 晕	E-SIGNS
 ，	O
-腹	B-BODY
+腹	S-BODY
 痛	O
 、	O
 恶	B-SIGNS
@@ -171529,13 +171529,13 @@ T	O
 C	I-CHECK
 T	E-CHECK
 ：	O
-肝	B-BODY
+肝	S-BODY
 、	O
-胆	B-BODY
+胆	S-BODY
 、	O
-脾	B-BODY
+脾	S-BODY
 、	O
-胰	B-BODY
+胰	S-BODY
 未	O
 见	O
 异	O
@@ -171584,7 +171584,7 @@ T	E-CHECK
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -171592,7 +171592,7 @@ T	B-CHECK
 5	O
 C	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
 7	O
 4	O
@@ -171600,7 +171600,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 1	O
 8	O
@@ -171672,7 +171672,7 @@ m	O
 灵	O
 敏	O
 。	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -171692,7 +171692,7 @@ m	O
 动	O
 波	O
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
 压	B-CHECK
@@ -171703,8 +171703,8 @@ m	O
 紧	I-CHECK
 张	E-CHECK
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 均	O
 未	O
 触	O
@@ -171770,13 +171770,13 @@ T	O
 C	I-CHECK
 T	E-CHECK
 ：	O
-肝	B-BODY
+肝	S-BODY
 、	O
-胆	B-BODY
+胆	S-BODY
 、	O
-脾	B-BODY
+脾	S-BODY
 、	O
-胰	B-BODY
+胰	S-BODY
 未	O
 见	O
 异	O
@@ -172031,7 +172031,7 @@ T	E-CHECK
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 7	O
@@ -172039,7 +172039,7 @@ T	B-CHECK
 5	O
 C	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
 8	O
 0	O
@@ -172047,7 +172047,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 1	O
 8	O
@@ -172505,7 +172505,7 @@ x	I-CHECK
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 5	O
@@ -172513,7 +172513,7 @@ T	B-CHECK
 6	O
 C	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
 7	O
 4	O
@@ -172521,7 +172521,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 2	O
 0	O
@@ -172802,8 +172802,8 @@ i	I-CHECK
 音	E-CHECK
 清	O
 ，	O
-肺	B-BODY
-肝	B-BODY
+肺	S-BODY
+肝	S-BODY
 相	B-CHECK
 对	I-CHECK
 浊	I-CHECK
@@ -173179,7 +173179,7 @@ T	O
 查	B-CHECK
 体	E-CHECK
 ：	O
-T	B-CHECK
+T	S-CHECK
 ：	O
 3	O
 6	O
@@ -173187,7 +173187,7 @@ T	B-CHECK
 5	O
 C	O
 ，	O
-P	B-CHECK
+P	S-CHECK
 :	O
 9	O
 0	O
@@ -173195,7 +173195,7 @@ P	B-CHECK
 /	O
 分	O
 ，	O
-R	B-CHECK
+R	S-CHECK
 ：	O
 2	O
 0	O
@@ -173328,8 +173328,8 @@ g	O
 音	E-CHECK
 清	O
 ，	O
-肺	B-BODY
-肝	B-BODY
+肺	S-BODY
+肝	S-BODY
 相	B-CHECK
 对	I-CHECK
 浊	I-CHECK
@@ -173436,11 +173436,11 @@ g	O
 水	B-SIGNS
 肿	E-SIGNS
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
-肝	B-BODY
-脾	B-BODY
+肝	S-BODY
+脾	S-BODY
 未	O
 触	O
 及	O
@@ -173715,7 +173715,7 @@ end
 中	O
 致	O
 伤	O
-头	B-BODY
+头	S-BODY
 、	O
 右	B-BODY
 肩	E-BODY
@@ -173875,7 +173875,7 @@ end
 正	O
 常	O
 。	O
-鼻	B-BODY
+鼻	S-BODY
 无	O
 畸	B-SIGNS
 形	E-SIGNS
@@ -173902,7 +173902,7 @@ end
 苍	B-SIGNS
 白	E-SIGNS
 ，	O
-咽	B-BODY
+咽	S-BODY
 无	O
 充	B-SIGNS
 血	E-SIGNS
@@ -173915,7 +173915,7 @@ end
 不	O
 大	O
 。	O
-颈	B-BODY
+颈	S-BODY
 左	O
 右	O
 对	O
@@ -174014,8 +174014,8 @@ end
 音	E-CHECK
 清	O
 ，	O
-肺	B-BODY
-肝	B-BODY
+肺	S-BODY
+肝	S-BODY
 相	B-CHECK
 对	I-CHECK
 浊	I-CHECK
@@ -174115,7 +174115,7 @@ end
 曲	I-SIGNS
 张	E-SIGNS
 。	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
 无	O
@@ -174136,9 +174136,9 @@ end
 震	B-SIGNS
 颤	E-SIGNS
 ，	O
-肝	B-BODY
-脾	B-BODY
-胃	B-BODY
+肝	S-BODY
+脾	S-BODY
+胃	S-BODY
 未	O
 触	O
 及	O
@@ -174724,7 +174724,7 @@ m	O
 杂	I-CHECK
 音	E-CHECK
 ，	O
-腹	B-BODY
+腹	S-BODY
 平	O
 坦	O
 ，	O
@@ -174818,7 +174818,7 @@ T	E-CHECK
 腔	O
 隙	O
 性	O
-脑	B-BODY
+脑	S-BODY
 梗	O
 死	O
 。	O
@@ -175066,7 +175066,7 @@ end
 腔	O
 隙	O
 性	O
-脑	B-BODY
+脑	S-BODY
 梗	O
 死	O
 5	O
@@ -175159,7 +175159,7 @@ end
 已	O
 消	O
 ，	O
-鼻	B-BODY
+鼻	S-BODY
 外	O
 形	O
 无	O
@@ -175502,7 +175502,7 @@ end
 织	O
 伤	O
 、	O
-头	B-BODY
+头	S-BODY
 外	O
 伤	O
 后	O
@@ -175525,7 +175525,7 @@ end
 ：	O
 1	O
 .	O
-胸	B-BODY
+胸	S-BODY
 外	O
 科	O
 护	O
@@ -176438,7 +176438,7 @@ J	O
 5	O
 观	O
 察	O
-尿	B-BODY
+尿	S-BODY
 量	O
 。	O
 术	O
@@ -178613,7 +178613,7 @@ end
 据	O
 患	O
 儿	O
-脐	B-BODY
+脐	S-BODY
 周	O
 轻	O
 压	B-CHECK
@@ -185735,7 +185735,7 @@ end
 ，	O
 结	O
 合	O
-胸	B-BODY
+胸	S-BODY
 片	O
 故	O
 诊	O
@@ -185778,7 +185778,7 @@ end
 止	O
 咳	O
 化	O
-痰	B-BODY
+痰	S-BODY
 ，	O
 布	B-TREATMENT
 地	I-TREATMENT
@@ -185941,7 +185941,7 @@ end
 止	O
 咳	O
 化	O
-痰	B-BODY
+痰	S-BODY
 ，	O
 布	B-TREATMENT
 地	I-TREATMENT
@@ -186096,7 +186096,7 @@ end
 止	O
 咳	O
 化	O
-痰	B-BODY
+痰	S-BODY
 ，	O
 布	B-TREATMENT
 地	I-TREATMENT
@@ -186242,7 +186242,7 @@ end
 止	O
 咳	O
 化	O
-痰	B-BODY
+痰	S-BODY
 ，	O
 布	B-TREATMENT
 地	I-TREATMENT
@@ -186296,7 +186296,7 @@ end
 症	O
 。	O
 以	O
-咽	B-BODY
+咽	S-BODY
 充	B-SIGNS
 血	E-SIGNS
 较	O
@@ -186351,7 +186351,7 @@ end
 症	O
 。	O
 以	O
-腹	B-BODY
+腹	S-BODY
 软	O
 ，	O
 无	O
@@ -187169,7 +187169,7 @@ end
 ，	O
 结	O
 合	O
-胸	B-BODY
+胸	S-BODY
 片	O
 故	O
 可	O
@@ -187678,7 +187678,7 @@ end
 止	O
 咳	O
 化	O
-痰	B-BODY
+痰	S-BODY
 ，	O
 布	B-TREATMENT
 地	I-TREATMENT
@@ -188387,7 +188387,7 @@ end
 并	O
 结	O
 合	O
-胸	B-BODY
+胸	S-BODY
 片	O
 故	O
 诊	O
@@ -189223,7 +189223,7 @@ end
 查	B-CHECK
 体	E-CHECK
 ：	O
-脐	B-BODY
+脐	S-BODY
 周	O
 压	B-CHECK
 痛	E-CHECK
@@ -189719,7 +189719,7 @@ T	E-CHECK
 故	O
 诊	O
 断	O
-脑	B-BODY
+脑	S-BODY
 梗	O
 死	O
 成	O
@@ -189969,7 +189969,7 @@ T	E-CHECK
 腔	O
 隙	O
 性	O
-脑	B-BODY
+脑	S-BODY
 梗	O
 死	O
 ，	O
@@ -190207,7 +190207,7 @@ end
 检	O
 查	O
 ，	O
-肝	B-BODY
+肝	S-BODY
 功	O
 能	O
 异	O
@@ -190398,7 +190398,7 @@ T	E-CHECK
 腔	O
 隙	O
 性	O
-脑	B-BODY
+脑	S-BODY
 梗	O
 死	O
 成	O
@@ -190971,7 +190971,7 @@ T	E-CHECK
 故	O
 诊	O
 断	O
-脑	B-BODY
+脑	S-BODY
 梗	O
 死	O
 成	O
@@ -191632,7 +191632,7 @@ T	E-CHECK
 故	O
 诊	O
 断	O
-脑	B-BODY
+脑	S-BODY
 梗	O
 死	O
 成	O
@@ -192533,7 +192533,7 @@ end
 ，	O
 改	O
 善	O
-脑	B-BODY
+脑	S-BODY
 循	O
 环	O
 等	O
@@ -195020,7 +195020,7 @@ T	E-CHECK
 故	O
 诊	O
 断	O
-脑	B-BODY
+脑	S-BODY
 梗	O
 死	O
 成	O
@@ -195366,7 +195366,7 @@ g	O
 治	O
 疗	O
 ，	O
-颈	B-BODY
+颈	S-BODY
 肩	B-BODY
 部	E-BODY
 疼	B-SIGNS
@@ -196575,7 +196575,7 @@ end
 甲	B-BODY
 状	I-BODY
 腺	E-BODY
-肿	B-SIGNS
+肿	S-SIGNS
 伴	O
 囊	O
 性	O
@@ -196675,7 +196675,7 @@ end
 素	E-TREATMENT
 ，	O
 化	O
-痰	B-BODY
+痰	S-BODY
 、	O
 抑	O
 酸	O
@@ -196794,7 +196794,7 @@ end
 提	O
 示	O
 ：	O
-钠	B-CHECK
+钠	S-CHECK
 1	O
 3	O
 2	O
@@ -196808,7 +196808,7 @@ l	O
 /	O
 L	O
 ，	O
-氯	B-CHECK
+氯	S-CHECK
 8	O
 7	O
 .	O
@@ -197707,7 +197707,7 @@ end
 节	E-BODY
 转	O
 移	O
-肝	B-BODY
+肝	S-BODY
 转	O
 移	O
 ；	O
@@ -198742,7 +198742,7 @@ end
 上	O
 午	O
 在	O
-腰	B-BODY
+腰	S-BODY
 麻	O
 下	O
 行	O
@@ -203232,7 +203232,7 @@ end
 八	I-CHECK
 项	E-CHECK
 ，	O
-尿	B-BODY
+尿	S-BODY
 培	O
 养	O
 。	O
@@ -203470,13 +203470,13 @@ C	I-CHECK
 T	E-CHECK
 示	O
 ：	O
-肝	B-BODY
+肝	S-BODY
 、	O
-胆	B-BODY
+胆	S-BODY
 、	O
-脾	B-BODY
+脾	S-BODY
 、	O
-胰	B-BODY
+胰	S-BODY
 未	O
 见	O
 明	O
@@ -203491,7 +203491,7 @@ T	E-CHECK
 ：	O
 1	O
 .	O
-肝	B-BODY
+肝	S-BODY
 实	O
 质	O
 回	O
@@ -203726,7 +203726,7 @@ l	O
 /	O
 L	O
 。	O
-钾	B-CHECK
+钾	S-CHECK
 4	O
 .	O
 4	O
@@ -203738,7 +203738,7 @@ l	O
 /	O
 L	O
 ，	O
-钠	B-CHECK
+钠	S-CHECK
 1	O
 3	O
 9	O
@@ -203752,7 +203752,7 @@ l	O
 /	O
 L	O
 ，	O
-氯	B-CHECK
+氯	S-CHECK
 9	O
 6	O
 .	O
@@ -203777,7 +203777,7 @@ L	O
 阻	O
 塞	O
 性	O
-肺	B-BODY
+肺	S-BODY
 疾	O
 病	O
 急	O
@@ -203787,14 +203787,14 @@ L	O
 期	O
 2	O
 .	O
-肺	B-BODY
+肺	S-BODY
 源	O
 性	O
 心	B-BODY
 脏	E-BODY
 病	O
-心	B-BODY
-肺	B-BODY
+心	S-BODY
+肺	S-BODY
 功	O
 能	O
 失	O

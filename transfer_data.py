@@ -1,5 +1,7 @@
 import os
 from collections import Counter
+import shutil
+import random
 
 class TransferData:
     def __init__(self):
@@ -10,12 +12,24 @@ class TransferData:
                       '症状和体征': 'SIGNS',
                       '疾病和诊断': 'DISEASE',
                       '治疗': 'TREATMENT',
-                      '身体部位': 'BODY'
-        }
-        self.origin_path = os.path.join(cur, 'data_origin')
-        self.train_filepath = os.path.join(cur, 'medical.train')
-        return
+                      '身体部位': 'BODY'}
 
+        self.cate_dict ={
+                         'O':0,
+                         'TREATMENT-I': 1,
+                         'TREATMENT-B': 2,
+                         'BODY-B': 3,
+                         'BODY-I': 4,
+                         'SIGNS-I': 5,
+                         'SIGNS-B': 6,
+                         'CHECK-B': 7,
+                         'CHECK-I': 8,
+                         'DISEASE-I': 9,
+                         'DISEASE-B': 10
+                        }
+        self.origin_path = os.path.join(cur, 'data_origin')
+        self.train_filepath = os.path.join(cur, 'medical.test')
+        return
 
     def transfer(self):
         f = open(self.train_filepath, 'w+')
@@ -40,7 +54,9 @@ class TransferData:
                     label = res[3]
                     label_id = self.label_dict.get(label)
                     for i in range(start, end+1):
-                        if i == start:
+                        if start == end and i == start:
+                            label_cate = 'S-' + label_id
+                        elif i == start and start != end:
                             # label_cate = label_id + '-B'
                             label_cate = 'B-' + label_id
                         elif i == end:

@@ -19,7 +19,7 @@ def get_tags(path, tag, tag_map):
     begin_tag = tag_map.get("B-" + tag)
     mid_tag = tag_map.get("I-" + tag)
     end_tag = tag_map.get("E-" + tag)
-    single_tag = tag_map.get("S")
+    single_tag = tag_map.get("S-" + tag)
     o_tag = tag_map.get("O")
     begin = -1
     end = 0
@@ -27,24 +27,31 @@ def get_tags(path, tag, tag_map):
     last_tag = 0
     onlyOne = False # 用来判断是否是单个字符
     for index, tag in enumerate(path):
-        # if tag == begin_tag and index == 0:
-        #     begin = 0
-        if tag == begin_tag and onlyOne == False:
+        if tag == single_tag:
+            tags.append([index])
+        elif tag == begin_tag:
             begin = index
-            onlyOne = True
-        elif tag == begin_tag and onlyOne == True:
-            tags.append([begin])
-            begin = index
-            onlyOne = False
+            # onlyOne = True
+        # elif tag == begin_tag and onlyOne == True:
+        #     tags.append([begin])
+        #     begin = index
+        #     onlyOne = False
+        #     if index == len(path) - 1:
+        #         tags.append([index])
         elif tag == end_tag and last_tag in [mid_tag, begin_tag] and begin > -1:
             end = index
             tags.append([begin, end])
-            onlyOne = False
-        elif tag == o_tag and onlyOne == True:
-            tags.append([begin])
-            onlyOne = False
-        elif tag == o_tag and onlyOne == False:
+        elif tag != end_tag and tag != begin_tag and tag != mid_tag and tag != single_tag:
             begin = -1
+            # onlyOne = False
+        # elif tag != end_tag and tag != mid_tag and onlyOne == True:
+        #     tags.append([begin])
+        #     onlyOne = False
+        # elif tag == o_tag and onlyOne == False:
+        #     begin = -1
+        # elif onlyOne == True and index == len(path) - 1:
+        #     tags.append([begin])
+        #     onlyOne = False
         last_tag = tag
     return tags
 

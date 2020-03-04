@@ -32,12 +32,12 @@ class DataManager():
     def generate_tags(self, tags):
         self.tags = []
         for tag in tags:
-            for prefix in ["B-", "I-", "E-"]:
+            for prefix in ["B-", "I-", "E-", "S-"]:
                 self.tags.append(prefix + tag)
         self.tags.append("O")
 
     def load_data_map(self):
-        with open("models/4all_66epoch/data_4all.pkl", "rb") as f:
+        with open("models/data_6all.pkl", "rb") as f:
             self.data_map = cPickle.load(f)
             self.vocab = self.data_map.get("vocab", {})
             self.tag_map = self.data_map.get("tag_map", {})
@@ -55,19 +55,19 @@ class DataManager():
             for line in f:
                 line = line[:-1]
                 if line == "end":
-                    self.data.append([sentence, target])
+                    self.data.append([sentence, target]) # 构造data列表
                     sentence = []
                     target = []
                     continue
                 try:
-                    word, tag = line.split("\t")
+                    word, tag = line.split("\t") # 分割每一行数据，获取汉字和标签
                 except Exception:
                     continue
                 if word not in self.vocab and self.data_type == "train":
                     self.vocab[word] = max(self.vocab.values()) + 1 
                 if tag not in self.tag_map and self.data_type == "train" and tag in self.tags:
                     self.tag_map[tag] = len(self.tag_map.keys())
-                sentence.append(self.vocab.get(word, 0)) 
+                sentence.append(self.vocab.get(word, 0))  # 找到vocab字典中对应汉字的值，添加到sentence中
                 target.append(self.tag_map.get(tag, 0))
         self.input_size = len(self.vocab.values())
         print("{} data: {}".format(self.data_type ,len(self.data)))
@@ -108,12 +108,11 @@ class DataManager():
     def pad_data(self, data):
         # 拷贝这30份句子
         c_data = copy.deepcopy(data)
-        # 找到这30个句子中最长的句子，并把他的长度赋值给max_length (332)
+        # 找到这30个句子中最长的句子，并把他的长度赋值给max_length
         max_length = max([len(i[0]) for i in c_data])
         # 根据max_length长度补零
-        # 将c_data第三个元素设置为句子的长度
         for i in c_data:
-            i.append(len(i[0]))
+            i.append(len(i[0])) # 将c_data第三个元素设置为句子的长度
             i[0] = i[0] + (max_length-len(i[0])) * [0]
             i[1] = i[1] + (max_length-len(i[1])) * [0]
             # i[0] = torch.tensor(i[0])

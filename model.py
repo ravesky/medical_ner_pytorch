@@ -127,11 +127,6 @@ class BiLSTMCRF(nn.Module):
         return total_score - real_path_score
 
     def forward(self, sentences, lengths=None):
-        """
-        :params sentences sentences to predict
-        :params lengths represent the ture length of sentence, the default is sentences.size(-1)
-        """
-        # sentences = sentences.clone().detach()
         sentences = torch.tensor(sentences, dtype=torch.long).cuda()
         if not lengths:
             lengths = [i.size(-1) for i in sentences]
